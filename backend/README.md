@@ -34,6 +34,15 @@ Recommended local paths
 - `backend/models/rice_disease_model.keras`
 - `backend/models/rice_disease_model.pt`
 - `backend/models/rice_disease_model.pth`
+- `backend/models/rice_disease_savedmodel/`
+
+Placeholder folder
+-------------------
+- `backend/models/sample_models/`
+
+This folder is tracked only as a layout reference. Put your real model files in `backend/models/` locally, then point `MODEL_PATH` at the exact file or folder you want the backend to use.
+
+If you want to share the trained weights without bloating the repository, attach them to a GitHub Release as separate assets.
 
 Run locally
 -----------

@@ -21,6 +21,11 @@ Set `MODEL_PATH` in `backend/.env` to the exact file you want to load. The backe
 - `.pt` or `.pth` with PyTorch
 - TensorFlow SavedModel directories when you point `MODEL_PATH` at the exported folder
 
+The repository includes a small placeholder folder at:
+- `backend/models/sample_models/`
+
+Use it as a reference for the expected layout, but keep the actual large weights local or attach them to a GitHub Release.
+
 How to run the backend
 ----------------------
 1. Copy `backend/.env.example` to `backend/.env`
@@ -57,3 +62,5 @@ Notes
 - Gemini is the default provider when an API key is configured.
 - If no model is configured yet, the app still works with fallback responses and local disease data.
 - You can extend the provider interfaces later without changing the Flutter UI.
+- Large trained weights are intentionally excluded from GitHub so the repo stays lightweight.
+- If you publish a release, attach model files as release assets instead of committing them to the source tree.

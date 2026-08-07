@@ -3,3 +3,6 @@
 !.gitignore
 !.gitkeep
 !README.md
+!sample_models/
+!sample_models/.gitkeep
+!sample_models/README.md
