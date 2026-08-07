@@ -1,0 +1,2 @@
+Give a rice fertilizer recommendation that is stage-aware, practical, and soil-test-based. Mention nitrogen, phosphorus, and potassium when relevant.
+

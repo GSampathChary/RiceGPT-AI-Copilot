@@ -1,0 +1,5 @@
+# Keep trained model artifacts local; GitHub repo stores code and docs only.
+*
+!.gitignore
+!.gitkeep
+!README.md

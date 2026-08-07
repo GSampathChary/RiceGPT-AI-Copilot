@@ -1,0 +1,156 @@
+{
+  "chats": [
+    {
+      "id": "82129785-8990-4718-9768-1ba4ac7b8892",
+      "query": "Best fertilizer for paddy.",
+      "answer": "For rice, the best fertilizer plan depends on soil test results. In general, split nitrogen applications work better than a single heavy dose. Phosphorus supports root growth and potassium helps stress tolerance. Share your growth stage and I can suggest a stage-wise plan.\n\nLocal notes:\n- FAQ match: Best fertilizer for paddy? -> The best fertilizer plan depends on soil tests, crop stage, and yield target. Split nitrogen applications and balanced NPK are usually safer than one heavy dose.",
+      "provider": "gemini",
+      "disease_context": "FAQ match: Best fertilizer for paddy? -> The best fertilizer plan depends on soil tests, crop stage, and yield target. Split nitrogen applications and balanced NPK are usually safer than one heavy dose.",
+      "created_at": "2026-08-07T08:27:59.347067+00:00",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Best fertilizer for paddy.",
+          "created_at": "2026-08-07T13:57:57.520152"
+        },
+        {
+          "role": "user",
+          "content": "Best fertilizer for paddy.",
+          "created_at": "2026-08-07T08:27:59.347010+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "For rice, the best fertilizer plan depends on soil test results. In general, split nitrogen applications work better than a single heavy dose. Phosphorus supports root growth and potassium helps stress tolerance. Share your growth stage and I can suggest a stage-wise plan.\n\nLocal notes:\n- FAQ match: Best fertilizer for paddy? -> The best fertilizer plan depends on soil tests, crop stage, and yield target. Split nitrogen applications and balanced NPK are usually safer than one heavy dose.",
+          "created_at": "2026-08-07T08:27:59.347026+00:00"
+        }
+      ]
+    },
+    {
+      "id": "45aaa4ec-346a-45c8-b06c-15de742d5180",
+      "query": "Why are my rice leaves yellow?",
+      "answer": "Yellow rice leaves usually point to nitrogen deficiency, water stress, or root problems. Check field drainage, apply a balanced nitrogen fertilizer if the soil is poor, and inspect roots for rot. If the yellowing starts from older leaves, nutrient deficiency is more likely; if it spreads in patches, investigate disease or flooding.\n\nLocal notes:\n- Relevant disease knowledge: Leaf Blast.\n- Symptoms: Spindle-shaped lesions on leaves, neck rot, and drying patches under humid conditions..\n- Cause: Fungal infection favored by high humidity, excess nitrogen, and dense crop canopies..\n- Treatment: Remove heavily infected leaves, keep fields airy, and apply a recommended fungicide if disease pressure is high..\n- Prevention: Use resistant varieties, balanced nitrogen, and clean seed..\n- FAQ match: Why are rice leaves turning yellow? -> Yellow leaves can be caused by nitrogen deficiency, water stress, root damage, or disease. Check the pattern across the field and the age of the affected leaves.\n- Pest note: Brown Planthopper. Symptoms: Yellowing patches, hopper burn, and stunted growth.. Management: Avoid excess nitrogen and conserve beneficial insects.",
+      "provider": "gemini",
+      "disease_context": "Relevant disease knowledge: Leaf Blast.\nSymptoms: Spindle-shaped lesions on leaves, neck rot, and drying patches under humid conditions..\nCause: Fungal infection favored by high humidity, excess nitrogen, and dense crop canopies..\nTreatment: Remove heavily infected leaves, keep fields airy, and apply a recommended fungicide if disease pressure is high..\nPrevention: Use resistant varieties, balanced nitrogen, and clean seed..\nFAQ match: Why are rice leaves turning yellow? -> Yellow leaves can be caused by nitrogen deficiency, water stress, root damage, or disease. Check the pattern across the field and the age of the affected leaves.\nPest note: Brown Planthopper. Symptoms: Yellowing patches, hopper burn, and stunted growth.. Management: Avoid excess nitrogen and conserve beneficial insects.",
+      "created_at": "2026-08-07T06:54:46.159025+00:00",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Why are my rice leaves yellow?",
+          "created_at": "2026-08-07T12:24:44.586508"
+        },
+        {
+          "role": "user",
+          "content": "Why are my rice leaves yellow?",
+          "created_at": "2026-08-07T06:54:46.152021+00:00"
+        },
+        {
+          "role": "assistant",
+          "content": "Yellow rice leaves usually point to nitrogen deficiency, water stress, or root problems. Check field drainage, apply a balanced nitrogen fertilizer if the soil is poor, and inspect roots for rot. If the yellowing starts from older leaves, nutrient deficiency is more likely; if it spreads in patches, investigate disease or flooding.\n\nLocal notes:\n- Relevant disease knowledge: Leaf Blast.\n- Symptoms: Spindle-shaped lesions on leaves, neck rot, and drying patches under humid conditions..\n- Cause: Fungal infection favored by high humidity, excess nitrogen, and dense crop canopies..\n- Treatment: Remove heavily infected leaves, keep fields airy, and apply a recommended fungicide if disease pressure is high..\n- Prevention: Use resistant varieties, balanced nitrogen, and clean seed..\n- FAQ match: Why are rice leaves turning yellow? -> Yellow leaves can be caused by nitrogen deficiency, water stress, root damage, or disease. Check the pattern across the field and the age of the affected leaves.\n- Pest note: Brown Planthopper. Symptoms: Yellowing patches, hopper burn, and stunted growth.. Management: Avoid excess nitrogen and conserve beneficial insects.",
+          "created_at": "2026-08-07T06:54:46.152057+00:00"
+        }
+      ]
+    }
+  ],
+  "diagnoses": [
+    {
+      "id": "8b7bfc06-5e06-44e2-a377-b28b649da10f",
+      "image_name": "scaled_34.png",
+      "disease": "Disease_Blast",
+      "confidence": 1.0,
+      "explanation": {
+        "disease": "Disease_Blast",
+        "symptoms": "Spindle-shaped lesions on leaves, neck rot, and drying patches under humid conditions.",
+        "cause": "Fungal infection favored by high humidity, excess nitrogen, and dense crop canopies.",
+        "treatment": "Remove heavily infected leaves, keep fields airy, and apply a recommended fungicide if disease pressure is high.",
+        "prevention": "Use resistant varieties, balanced nitrogen, and clean seed.",
+        "recommended_fungicide": "Follow local extension guidance for tricyclazole or another locally approved fungicide.",
+        "organic_solution": "Support plants with silica-rich nutrition and biological control practices as part of integrated management.",
+        "farmer_tips": "Avoid overwatering and inspect fields after heavy dew or rain.",
+        "fertilizer_recommendation": "Reduce excess nitrogen and keep potassium adequate."
+      },
+      "provider": "torch",
+      "model_path": "E:\\AI-Portfolio\\Projects\\RiceGPT-AI\\backend\\models\\rice_disease_model.pth",
+      "created_at": "2026-08-07T08:28:41.438601+00:00"
+    },
+    {
+      "id": "f983b7f1-4a65-4345-8fbd-1875df699832",
+      "image_name": "scaled_255A0073.jpg",
+      "disease": "Healthy",
+      "confidence": 0.55,
+      "explanation": {
+        "disease": "Healthy",
+        "symptoms": "Green, upright leaves with no visible lesions or major discoloration.",
+        "cause": "Crop is currently showing good health.",
+        "treatment": "Keep monitoring irrigation, nutrition, and pest pressure.",
+        "prevention": "Maintain balanced crop care and field sanitation.",
+        "recommended_fungicide": "No fungicide needed when the crop is healthy.",
+        "organic_solution": "Continue using compost and biological support as a preventive practice.",
+        "farmer_tips": "Regular scouting is the best way to stay ahead of problems.",
+        "fertilizer_recommendation": "Follow a stage-based fertilizer plan."
+      },
+      "provider": "gemini",
+      "model_path": "",
+      "created_at": "2026-08-07T07:10:16.659260+00:00"
+    },
+    {
+      "id": "547cf9a6-5b50-45fc-bc6a-322da01f018b",
+      "image_name": "scaled_blast4.png",
+      "disease": "Healthy",
+      "confidence": 0.55,
+      "explanation": {
+        "disease": "Healthy",
+        "symptoms": "Green, upright leaves with no visible lesions or major discoloration.",
+        "cause": "Crop is currently showing good health.",
+        "treatment": "Keep monitoring irrigation, nutrition, and pest pressure.",
+        "prevention": "Maintain balanced crop care and field sanitation.",
+        "recommended_fungicide": "No fungicide needed when the crop is healthy.",
+        "organic_solution": "Continue using compost and biological support as a preventive practice.",
+        "farmer_tips": "Regular scouting is the best way to stay ahead of problems.",
+        "fertilizer_recommendation": "Follow a stage-based fertilizer plan."
+      },
+      "provider": "gemini",
+      "model_path": "",
+      "created_at": "2026-08-07T07:09:35.830303+00:00"
+    },
+    {
+      "id": "f73aa0c3-3e23-4220-8ed4-c6af24b149d6",
+      "image_name": "scaled_blast4.png",
+      "disease": "Healthy",
+      "confidence": 0.55,
+      "explanation": {
+        "disease": "Healthy",
+        "symptoms": "Green, upright leaves with no visible lesions or major discoloration.",
+        "cause": "Crop is currently showing good health.",
+        "treatment": "Keep monitoring irrigation, nutrition, and pest pressure.",
+        "prevention": "Maintain balanced crop care and field sanitation.",
+        "recommended_fungicide": "No fungicide needed when the crop is healthy.",
+        "organic_solution": "Continue using compost and biological support as a preventive practice.",
+        "farmer_tips": "Regular scouting is the best way to stay ahead of problems.",
+        "fertilizer_recommendation": "Follow a stage-based fertilizer plan."
+      },
+      "provider": "gemini",
+      "model_path": "",
+      "created_at": "2026-08-07T07:09:27.279646+00:00"
+    },
+    {
+      "id": "dd715b4b-f951-4592-a53d-7f04e4388e6f",
+      "image_name": "scaled_1.jpg",
+      "disease": "Healthy",
+      "confidence": 0.55,
+      "explanation": {
+        "disease": "Healthy",
+        "symptoms": "Green, upright leaves with no visible lesions or major discoloration.",
+        "cause": "Crop is currently showing good health.",
+        "treatment": "Keep monitoring irrigation, nutrition, and pest pressure.",
+        "prevention": "Maintain balanced crop care and field sanitation.",
+        "recommended_fungicide": "No fungicide needed when the crop is healthy.",
+        "organic_solution": "Continue using compost and biological support as a preventive practice.",
+        "farmer_tips": "Regular scouting is the best way to stay ahead of problems.",
+        "fertilizer_recommendation": "Follow a stage-based fertilizer plan."
+      },
+      "provider": "gemini",
+      "model_path": "",
+      "created_at": "2026-08-07T07:09:03.134254+00:00"
+    }
+  ]
+}

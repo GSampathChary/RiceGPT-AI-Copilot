@@ -1,0 +1,2324 @@
+﻿[
+    {
+        "sheet":  "pest vs stage",
+        "rows":  [
+                     {
+                         "row":  5,
+                         "C4":  "crop stage ",
+                         "C5":  "crop stage ",
+                         "C6":  "Insect pest "
+                     },
+                     {
+                         "row":  6,
+                         "C3":  "1",
+                         "C4":  "Nursery",
+                         "C5":  "Nursery",
+                         "C6":  "Army worm "
+                     },
+                     {
+                         "row":  7,
+                         "C3":  "1",
+                         "C4":  "Nursery",
+                         "C5":  "Nursery",
+                         "C6":  "Blue beetle "
+                     },
+                     {
+                         "row":  8,
+                         "C3":  "1",
+                         "C4":  "Nursery",
+                         "C5":  "Nursery",
+                         "C6":  "BPH"
+                     },
+                     {
+                         "row":  9,
+                         "C3":  "1",
+                         "C4":  "Nursery",
+                         "C5":  "Nursery",
+                         "C6":  "Case worm "
+                     },
+                     {
+                         "row":  10,
+                         "C3":  "1",
+                         "C4":  "Nursery",
+                         "C5":  "Nursery",
+                         "C6":  "GM"
+                     },
+                     {
+                         "row":  11,
+                         "C3":  "1",
+                         "C4":  "Nursery",
+                         "C5":  "Nursery",
+                         "C6":  "grasshoppers"
+                     },
+                     {
+                         "row":  12,
+                         "C3":  "1",
+                         "C4":  "Nursery",
+                         "C5":  "Nursery",
+                         "C6":  "leaf mites"
+                     },
+                     {
+                         "row":  13,
+                         "C3":  "1",
+                         "C4":  "Nursery",
+                         "C5":  "Nursery",
+                         "C6":  "Rice hispa"
+                     },
+                     {
+                         "row":  14,
+                         "C3":  "1",
+                         "C4":  "Nursery",
+                         "C5":  "Nursery",
+                         "C6":  "Rice Thrips"
+                     },
+                     {
+                         "row":  15,
+                         "C3":  "1",
+                         "C4":  "Nursery",
+                         "C5":  "Nursery",
+                         "C6":  "root aphids"
+                     },
+                     {
+                         "row":  16,
+                         "C3":  "1",
+                         "C4":  "Nursery",
+                         "C5":  "Nursery",
+                         "C6":  "Root Knot nematode"
+                     },
+                     {
+                         "row":  17,
+                         "C3":  "1",
+                         "C4":  "Nursery",
+                         "C5":  "Nursery",
+                         "C6":  "SB"
+                     },
+                     {
+                         "row":  18,
+                         "C3":  "1",
+                         "C4":  "Nursery",
+                         "C5":  "Nursery",
+                         "C6":  "snails"
+                     },
+                     {
+                         "row":  19,
+                         "C3":  "1",
+                         "C4":  "Nursery",
+                         "C5":  "Nursery",
+                         "C6":  "whorl maggot"
+                     },
+                     {
+                         "row":  20,
+                         "C3":  "1",
+                         "C4":  "Nursery",
+                         "C5":  "Nursery"
+                     },
+                     {
+                         "row":  21,
+                         "C3":  "1",
+                         "C4":  "Nursery",
+                         "C5":  "Nursery"
+                     },
+                     {
+                         "row":  22,
+                         "C3":  "1",
+                         "C4":  "Nursery",
+                         "C5":  "Nursery"
+                     },
+                     {
+                         "row":  23,
+                         "C3":  "1",
+                         "C4":  "Nursery",
+                         "C5":  "Nursery"
+                     },
+                     {
+                         "row":  24,
+                         "C3":  "1",
+                         "C4":  "Nursery",
+                         "C5":  "Nursery"
+                     },
+                     {
+                         "row":  25,
+                         "C3":  "1",
+                         "C4":  "Nursery",
+                         "C5":  "Nursery"
+                     },
+                     {
+                         "row":  27,
+                         "C3":  "2",
+                         "C4":  "Planting - PI",
+                         "C5":  "vegetative phase",
+                         "C6":  "Army worm "
+                     },
+                     {
+                         "row":  28,
+                         "C3":  "2",
+                         "C4":  "Planting - PI",
+                         "C5":  "vegetative phase",
+                         "C6":  "Blast"
+                     },
+                     {
+                         "row":  29,
+                         "C3":  "2",
+                         "C4":  "Planting - PI",
+                         "C5":  "vegetative phase",
+                         "C6":  "Black bug "
+                     },
+                     {
+                         "row":  30,
+                         "C3":  "2",
+                         "C4":  "Planting - PI",
+                         "C5":  "vegetative phase",
+                         "C6":  "blue beetle "
+                     },
+                     {
+                         "row":  31,
+                         "C3":  "2",
+                         "C4":  "Planting - PI",
+                         "C5":  "vegetative phase",
+                         "C6":  "BPH"
+                     },
+                     {
+                         "row":  32,
+                         "C3":  "2",
+                         "C4":  "Planting - PI",
+                         "C5":  "vegetative phase",
+                         "C6":  "case worm "
+                     },
+                     {
+                         "row":  33,
+                         "C3":  "2",
+                         "C4":  "Planting - PI",
+                         "C5":  "vegetative phase",
+                         "C6":  "GM"
+                     },
+                     {
+                         "row":  34,
+                         "C3":  "2",
+                         "C4":  "Planting - PI",
+                         "C5":  "vegetative phase",
+                         "C6":  "grasshoppers"
+                     },
+                     {
+                         "row":  35,
+                         "C3":  "2",
+                         "C4":  "Planting - PI",
+                         "C5":  "vegetative phase",
+                         "C6":  "leaf mites"
+                     },
+                     {
+                         "row":  36,
+                         "C3":  "2",
+                         "C4":  "Planting - PI",
+                         "C5":  "vegetative phase",
+                         "C6":  "Leaffolder"
+                     },
+                     {
+                         "row":  37,
+                         "C3":  "2",
+                         "C4":  "Planting - PI",
+                         "C5":  "vegetative phase",
+                         "C6":  "rice hispa"
+                     },
+                     {
+                         "row":  38,
+                         "C3":  "2",
+                         "C4":  "Planting - PI",
+                         "C5":  "vegetative phase",
+                         "C6":  "Rice Thrips"
+                     },
+                     {
+                         "row":  39,
+                         "C3":  "2",
+                         "C4":  "Planting - PI",
+                         "C5":  "vegetative phase",
+                         "C6":  "Root Knot nematode"
+                     },
+                     {
+                         "row":  40,
+                         "C3":  "2",
+                         "C4":  "Planting - PI",
+                         "C5":  "vegetative phase",
+                         "C6":  "root aphid"
+                     },
+                     {
+                         "row":  41,
+                         "C3":  "2",
+                         "C4":  "Planting - PI",
+                         "C5":  "vegetative phase",
+                         "C6":  "SB"
+                     },
+                     {
+                         "row":  42,
+                         "C3":  "2",
+                         "C4":  "Planting - PI",
+                         "C5":  "vegetative phase",
+                         "C6":  "termites"
+                     },
+                     {
+                         "row":  43,
+                         "C3":  "2",
+                         "C4":  "Planting - PI",
+                         "C5":  "vegetative phase",
+                         "C6":  "WBPH"
+                     },
+                     {
+                         "row":  44,
+                         "C3":  "2",
+                         "C4":  "Planting - PI",
+                         "C5":  "vegetative phase",
+                         "C6":  "whorl maggot"
+                     },
+                     {
+                         "row":  46,
+                         "C3":  "3",
+                         "C4":  "PI-Flowering",
+                         "C5":  "veg- reproductive phase",
+                         "C6":  "Army worm "
+                     },
+                     {
+                         "row":  47,
+                         "C3":  "3",
+                         "C4":  "PI-Flowering",
+                         "C5":  "veg- reproductive phase",
+                         "C6":  "Blast"
+                     },
+                     {
+                         "row":  48,
+                         "C3":  "3",
+                         "C4":  "PI-Flowering",
+                         "C5":  "veg- reproductive phase",
+                         "C6":  "Black bug "
+                     },
+                     {
+                         "row":  49,
+                         "C3":  "3",
+                         "C4":  "PI-Flowering",
+                         "C5":  "veg- reproductive phase",
+                         "C6":  "BPH"
+                     },
+                     {
+                         "row":  50,
+                         "C3":  "3",
+                         "C4":  "PI-Flowering",
+                         "C5":  "veg- reproductive phase",
+                         "C6":  "cut worm"
+                     },
+                     {
+                         "row":  51,
+                         "C3":  "3",
+                         "C4":  "PI-Flowering",
+                         "C5":  "veg- reproductive phase",
+                         "C6":  "GM"
+                     },
+                     {
+                         "row":  52,
+                         "C3":  "3",
+                         "C4":  "PI-Flowering",
+                         "C5":  "veg- reproductive phase",
+                         "C6":  "grasshoppers"
+                     },
+                     {
+                         "row":  53,
+                         "C3":  "3",
+                         "C4":  "PI-Flowering",
+                         "C5":  "veg- reproductive phase",
+                         "C6":  "gundhi bug"
+                     },
+                     {
+                         "row":  54,
+                         "C3":  "3",
+                         "C4":  "PI-Flowering",
+                         "C5":  "veg- reproductive phase",
+                         "C6":  "leaf mites"
+                     },
+                     {
+                         "row":  55,
+                         "C3":  "3",
+                         "C4":  "PI-Flowering",
+                         "C5":  "veg- reproductive phase",
+                         "C6":  "Leaffolder"
+                     },
+                     {
+                         "row":  56,
+                         "C3":  "3",
+                         "C4":  "PI-Flowering",
+                         "C5":  "veg- reproductive phase",
+                         "C6":  "rice hispa"
+                     },
+                     {
+                         "row":  57,
+                         "C3":  "3",
+                         "C4":  "PI-Flowering",
+                         "C5":  "veg- reproductive phase",
+                         "C6":  "Rice Thrips"
+                     },
+                     {
+                         "row":  58,
+                         "C3":  "3",
+                         "C4":  "PI-Flowering",
+                         "C5":  "veg- reproductive phase",
+                         "C6":  "Root Knot nematode"
+                     },
+                     {
+                         "row":  59,
+                         "C3":  "3",
+                         "C4":  "PI-Flowering",
+                         "C5":  "veg- reproductive phase",
+                         "C6":  "root aphid"
+                     },
+                     {
+                         "row":  60,
+                         "C3":  "3",
+                         "C4":  "PI-Flowering",
+                         "C5":  "veg- reproductive phase",
+                         "C6":  "SB"
+                     },
+                     {
+                         "row":  61,
+                         "C3":  "3",
+                         "C4":  "PI-Flowering",
+                         "C5":  "veg- reproductive phase",
+                         "C6":  "termites"
+                     },
+                     {
+                         "row":  62,
+                         "C3":  "3",
+                         "C4":  "PI-Flowering",
+                         "C5":  "veg- reproductive phase",
+                         "C6":  "WBPH"
+                     },
+                     {
+                         "row":  64,
+                         "C3":  "4",
+                         "C4":  "Flowering-Maturity",
+                         "C5":  "reproductive phase",
+                         "C6":  "Army worm "
+                     },
+                     {
+                         "row":  65,
+                         "C3":  "4",
+                         "C4":  "Flowering-Maturity",
+                         "C5":  "reproductive phase",
+                         "C6":  "Blast"
+                     },
+                     {
+                         "row":  66,
+                         "C3":  "4",
+                         "C4":  "Flowering-Maturity",
+                         "C5":  "reproductive phase",
+                         "C6":  "Black bug "
+                     },
+                     {
+                         "row":  67,
+                         "C3":  "4",
+                         "C4":  "Flowering-Maturity",
+                         "C5":  "reproductive phase",
+                         "C6":  "BPH"
+                     },
+                     {
+                         "row":  68,
+                         "C3":  "4",
+                         "C4":  "Flowering-Maturity",
+                         "C5":  "reproductive phase",
+                         "C6":  "cut worm"
+                     },
+                     {
+                         "row":  69,
+                         "C3":  "4",
+                         "C4":  "Flowering-Maturity",
+                         "C5":  "reproductive phase",
+                         "C6":  "GM"
+                     },
+                     {
+                         "row":  70,
+                         "C3":  "4",
+                         "C4":  "Flowering-Maturity",
+                         "C5":  "reproductive phase",
+                         "C6":  "grasshoppers"
+                     },
+                     {
+                         "row":  71,
+                         "C3":  "4",
+                         "C4":  "Flowering-Maturity",
+                         "C5":  "reproductive phase",
+                         "C6":  "gundhi bug"
+                     },
+                     {
+                         "row":  72,
+                         "C3":  "4",
+                         "C4":  "Flowering-Maturity",
+                         "C5":  "reproductive phase",
+                         "C6":  "leaf mites"
+                     },
+                     {
+                         "row":  73,
+                         "C3":  "4",
+                         "C4":  "Flowering-Maturity",
+                         "C5":  "reproductive phase",
+                         "C6":  "Leaffolder"
+                     },
+                     {
+                         "row":  74,
+                         "C3":  "4",
+                         "C4":  "Flowering-Maturity",
+                         "C5":  "reproductive phase",
+                         "C6":  "rice hispa"
+                     },
+                     {
+                         "row":  75,
+                         "C3":  "4",
+                         "C4":  "Flowering-Maturity",
+                         "C5":  "reproductive phase",
+                         "C6":  "Rice Thrips"
+                     },
+                     {
+                         "row":  76,
+                         "C3":  "4",
+                         "C4":  "Flowering-Maturity",
+                         "C5":  "reproductive phase",
+                         "C6":  "Root Knot nematode"
+                     },
+                     {
+                         "row":  77,
+                         "C3":  "4",
+                         "C4":  "Flowering-Maturity",
+                         "C5":  "reproductive phase",
+                         "C6":  "root aphid"
+                     },
+                     {
+                         "row":  78,
+                         "C3":  "4",
+                         "C4":  "Flowering-Maturity",
+                         "C5":  "reproductive phase",
+                         "C6":  "SB"
+                     },
+                     {
+                         "row":  79,
+                         "C3":  "4",
+                         "C4":  "Flowering-Maturity",
+                         "C5":  "reproductive phase",
+                         "C6":  "termites"
+                     },
+                     {
+                         "row":  80,
+                         "C3":  "4",
+                         "C4":  "Flowering-Maturity",
+                         "C5":  "reproductive phase",
+                         "C6":  "WBPH"
+                     },
+                     {
+                         "row":  81,
+                         "C3":  "4",
+                         "C4":  "Flowering-Maturity",
+                         "C5":  "reproductive phase"
+                     },
+                     {
+                         "row":  82,
+                         "C3":  "4",
+                         "C4":  "Flowering-Maturity",
+                         "C5":  "reproductive phase"
+                     },
+                     {
+                         "row":  83,
+                         "C3":  "4",
+                         "C4":  "Flowering-Maturity",
+                         "C5":  "reproductive phase"
+                     },
+                     {
+                         "row":  84,
+                         "C3":  "4",
+                         "C4":  "Flowering-Maturity",
+                         "C5":  "reproductive phase"
+                     },
+                     {
+                         "row":  85,
+                         "C3":  "4",
+                         "C4":  "Flowering-Maturity",
+                         "C5":  "reproductive phase"
+                     },
+                     {
+                         "row":  86,
+                         "C3":  "4",
+                         "C4":  "Flowering-Maturity",
+                         "C5":  "reproductive phase"
+                     },
+                     {
+                         "row":  87,
+                         "C3":  "4",
+                         "C4":  "Flowering-Maturity",
+                         "C5":  "reproductive phase"
+                     }
+                 ]
+    },
+    {
+        "sheet":  "Nursery",
+        "rows":  [
+                     {
+                         "row":  1,
+                         "C2":  "stages",
+                         "C7":  "Field appearance",
+                         "C10":  "Distribution",
+                         "C11":  "Appearance of damage area"
+                     },
+                     {
+                         "row":  2,
+                         "C2":  "seedling",
+                         "C6":  "Healthy"
+                     },
+                     {
+                         "row":  3,
+                         "C2":  "Nursery",
+                         "C6":  "Un Healthy",
+                         "C7":  "White",
+                         "C10":  "Uniform"
+                     },
+                     {
+                         "row":  4,
+                         "C2":  "planting - PI",
+                         "C7":  "Yellow",
+                         "C10":  "Patches"
+                     },
+                     {
+                         "row":  5,
+                         "C2":  "PI- Flowering",
+                         "C7":  "Green"
+                     },
+                     {
+                         "row":  6,
+                         "C2":  "Flowering- Maturity",
+                         "C8":  "grazed appearance"
+                     },
+                     {
+                         "row":  9,
+                         "C2":  "Crop stage",
+                         "C3":  "crop stage ",
+                         "C4":  "status of the crop ",
+                         "C5":  "Appearance of crop from a distance ",
+                         "C6":  "Appearance of damage area",
+                         "C7":  "specific symptom of damage ",
+                         "C8":  "additional symptom 1",
+                         "C9":  "additional symptom 2",
+                         "C10":  "link to pest",
+                         "C11":  "link to  any dry spell"
+                     },
+                     {
+                         "row":  10,
+                         "C1":  "N1",
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "white",
+                         "C6":  "uniform",
+                         "C7":  "nutritional disorder"
+                     },
+                     {
+                         "row":  11,
+                         "C1":  "N2",
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "white",
+                         "C6":  "patches",
+                         "C7":  "tips of leaves with silvery streak appearance",
+                         "C9":  "dry spell",
+                         "C10":  " Rice thrips",
+                         "C11":  "yes",
+                         "C16":  "all possible symptoms  of pests (if nutritional then that iron,zinc or whatever that page will appear)"
+                     },
+                     {
+                         "row":  12,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "white",
+                         "C6":  "patches",
+                         "C7":  "white streaks on the leaves due to scraping ",
+                         "C8":  "presence of blackish  blue beetles with spines,  on the plants ",
+                         "C9":  "grubs found in between the epidermal layers",
+                         "C10":  " Rice hispa",
+                         "C16":  "all possible symptoms  of pests"
+                     },
+                     {
+                         "row":  13,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "white ",
+                         "C6":  "patches",
+                         "C7":  "white streaks on the leaves due to scraping ",
+                         "C8":  "presence of blue beetles on the plants ",
+                         "C9":  "rolling of the leaves",
+                         "C10":  "blue beetle "
+                     },
+                     {
+                         "row":  14,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "white ",
+                         "C6":  "patches",
+                         "C7":  "white streaks on the leaves due to scraping ",
+                         "C8":  "excreta may be seen within the leaf folds",
+                         "C9":  "some of the leaves are folded and when opened larva is found in the leaves.",
+                         "C10":  "leaffolder",
+                         "C16":  "Army worm "
+                     },
+                     {
+                         "row":  15,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "white ",
+                         "C6":  "patches",
+                         "C7":  "ladder like appearance of the damage due to scraping of the epidermis",
+                         "C8":  "leaf tips are cut and the larva forms cases  and they scrape the upper epidermis ",
+                         "C9":  "cases with larvae are found on the near base of the plant",
+                         "C10":  "case worm",
+                         "C16":  "Blue beetle "
+                     },
+                     {
+                         "row":  16,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C16":  "BPH"
+                     },
+                     {
+                         "row":  17,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C16":  "Case worm "
+                     },
+                     {
+                         "row":  18,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C16":  "GM"
+                     },
+                     {
+                         "row":  19,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "yellow",
+                         "C6":  "uniform",
+                         "C16":  "grasshoppers"
+                     },
+                     {
+                         "row":  20,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "Yellow",
+                         "C6":  "patches",
+                         "C7":  "yellowing of leaves in the seedlings",
+                         "C10":  "brown planthopper",
+                         "C16":  "leaf mites"
+                     },
+                     {
+                         "row":  21,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "Yellow",
+                         "C6":  "patches",
+                         "C7":  "Yellowing of central leaf ",
+                         "C10":  "stem borer",
+                         "C16":  "Rice hispa"
+                     },
+                     {
+                         "row":  22,
+                         "C5":  "yellow",
+                         "C16":  "Rice Thrips"
+                     },
+                     {
+                         "row":  23,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "Yellow",
+                         "C6":  "patches",
+                         "C7":  "whole plant yellow",
+                         "C9":  "upland area",
+                         "C10":  "aphids",
+                         "C16":  "root aphids"
+                     },
+                     {
+                         "row":  24,
+                         "C5":  "Yellow",
+                         "C6":  "patches",
+                         "C7":  "whole plant yellow",
+                         "C9":  "upland area",
+                         "C10":  "termites",
+                         "C16":  "Root Knot nematode"
+                     },
+                     {
+                         "row":  25,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "yellow",
+                         "C6":  "patches",
+                         "C7":  "leaves with yellow mottling ",
+                         "C9":  "dry spell",
+                         "C10":  " leaf mites ",
+                         "C11":  "yes ",
+                         "C16":  "SB"
+                     },
+                     {
+                         "row":  26,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "Yellow"
+                     },
+                     {
+                         "row":  27,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "Green",
+                         "C7":  "leaf sheath turns into silver shoots ",
+                         "C10":  "gall midge ",
+                         "C16":  "snails"
+                     },
+                     {
+                         "row":  28,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "Green",
+                         "C6":  "uniform",
+                         "C7":  "tips of leaves rolled and pointed",
+                         "C9":  "dry spell",
+                         "C10":  " Rice thrips",
+                         "C11":  "yes"
+                     },
+                     {
+                         "row":  29,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "Green",
+                         "C6":  "patchy",
+                         "C7":  "ladder like apperance of the damage due to scraping of the epidermis",
+                         "C8":  "leaf tips are cut and the larva forms cases  and they scrpe the upper epidermis ",
+                         "C9":  "water stagnation ",
+                         "C10":  "case worm "
+                     },
+                     {
+                         "row":  30,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "Green",
+                         "C6":  "uniform",
+                         "C7":  "grazed appearance of the fied",
+                         "C8":  "sudden damage occurs  overnight ",
+                         "C10":  "army worm ",
+                         "C11":  "prolonged dry spell followed by rains"
+                     },
+                     {
+                         "row":  31,
+                         "C8":  "feeding from the margins in zig zag manner",
+                         "C10":  "grasshopper"
+                     },
+                     {
+                         "row":  33,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "brown ",
+                         "C6":  "patches",
+                         "C7":  "whole plants dried",
+                         "C8":  "presence of exuviae and insects at the base of the plant",
+                         "C9":  "when severe drying in concentric circles",
+                         "C10":  "Brown planthopper"
+                     },
+                     {
+                         "row":  34,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C6":  "patches",
+                         "C7":  "whole plants dried",
+                         "C8":  "presence of exuviae and insects at the base of the plant",
+                         "C9":  "when severe drying in concentric circles",
+                         "C10":  "white backed planthopper"
+                     },
+                     {
+                         "row":  35,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C6":  "patches",
+                         "C7":  "whole plants dried",
+                         "C8":  "presence of exuviae and insects at the base of the plant",
+                         "C9":  "when severe drying in concentric circles",
+                         "C10":  "black bug "
+                     },
+                     {
+                         "row":  36,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "brown ",
+                         "C6":  "patches",
+                         "C7":  "whole plants dried",
+                         "C8":  "In early stages of infestation, the central shoot comes out easily when pulled.",
+                         "C9":  "when severe drying in concentric circles",
+                         "C10":  "stem borer"
+                     },
+                     {
+                         "row":  120,
+                         "C2":  "planting - PI",
+                         "C3":  "vegetative phase",
+                         "C4":  "unhealthy",
+                         "C5":  "Green",
+                         "C6":  "patches"
+                     },
+                     {
+                         "row":  121,
+                         "C2":  "planting - PI",
+                         "C3":  "vegetative phase",
+                         "C4":  "unhealthy",
+                         "C5":  "white",
+                         "C6":  "uniform"
+                     },
+                     {
+                         "row":  122,
+                         "C2":  "planting - PI",
+                         "C3":  "vegetative phase",
+                         "C4":  "unhealthy",
+                         "C5":  "white",
+                         "C6":  "patches"
+                     },
+                     {
+                         "row":  123,
+                         "C2":  "planting - PI",
+                         "C3":  "vegetative phase",
+                         "C4":  "unhealthy",
+                         "C5":  "yellow",
+                         "C6":  "uniform"
+                     },
+                     {
+                         "row":  124,
+                         "C2":  "planting - PI",
+                         "C3":  "vegetative phase",
+                         "C4":  "unhealthy",
+                         "C5":  "Yellow",
+                         "C6":  "patches"
+                     },
+                     {
+                         "row":  125,
+                         "C2":  "planting - PI",
+                         "C3":  "vegetative phase",
+                         "C4":  "unhealthy",
+                         "C5":  "Green",
+                         "C6":  "uniform"
+                     },
+                     {
+                         "row":  126,
+                         "C2":  "planting - PI",
+                         "C3":  "vegetative phase",
+                         "C4":  "unhealthy",
+                         "C5":  "Green",
+                         "C6":  "patches"
+                     },
+                     {
+                         "row":  127,
+                         "C2":  "planting - PI",
+                         "C3":  "vegetative phase"
+                     },
+                     {
+                         "row":  128,
+                         "C2":  "planting - PI",
+                         "C3":  "vegetative phase",
+                         "C4":  "unhealthy",
+                         "C5":  "Green",
+                         "C6":  "patches"
+                     },
+                     {
+                         "row":  129,
+                         "C2":  "planting - PI",
+                         "C3":  "vegetative phase",
+                         "C4":  "unhealthy",
+                         "C5":  "white",
+                         "C6":  "uniform"
+                     },
+                     {
+                         "row":  130,
+                         "C2":  "planting - PI",
+                         "C3":  "vegetative phase",
+                         "C4":  "unhealthy",
+                         "C5":  "white",
+                         "C6":  "patches"
+                     },
+                     {
+                         "row":  131,
+                         "C2":  "planting - PI",
+                         "C3":  "vegetative phase",
+                         "C4":  "unhealthy",
+                         "C5":  "yellow",
+                         "C6":  "uniform"
+                     },
+                     {
+                         "row":  132,
+                         "C2":  "planting - PI",
+                         "C3":  "vegetative phase",
+                         "C4":  "unhealthy",
+                         "C5":  "Yellow",
+                         "C6":  "patches"
+                     },
+                     {
+                         "row":  133,
+                         "C2":  "planting - PI",
+                         "C3":  "vegetative phase",
+                         "C4":  "unhealthy",
+                         "C5":  "Green",
+                         "C6":  "uniform"
+                     },
+                     {
+                         "row":  134,
+                         "C2":  "planting - PI",
+                         "C3":  "vegetative phase",
+                         "C4":  "unhealthy",
+                         "C5":  "Green",
+                         "C6":  "patches"
+                     },
+                     {
+                         "row":  135,
+                         "C2":  "planting - PI",
+                         "C3":  "vegetative phase"
+                     },
+                     {
+                         "row":  136,
+                         "C2":  "planting - PI",
+                         "C3":  "vegetative phase"
+                     },
+                     {
+                         "row":  137,
+                         "C2":  "planting - PI",
+                         "C3":  "vegetative phase"
+                     },
+                     {
+                         "row":  139,
+                         "C2":  "PI- Flowering",
+                         "C3":  "veg- reproductive phase"
+                     },
+                     {
+                         "row":  140,
+                         "C2":  "PI- Flowering",
+                         "C3":  "veg- reproductive phase"
+                     },
+                     {
+                         "row":  141,
+                         "C2":  "PI- Flowering",
+                         "C3":  "veg- reproductive phase"
+                     },
+                     {
+                         "row":  142,
+                         "C2":  "PI- Flowering",
+                         "C3":  "veg- reproductive phase"
+                     },
+                     {
+                         "row":  143,
+                         "C2":  "PI- Flowering",
+                         "C3":  "veg- reproductive phase"
+                     },
+                     {
+                         "row":  144,
+                         "C2":  "PI- Flowering",
+                         "C3":  "veg- reproductive phase"
+                     },
+                     {
+                         "row":  145,
+                         "C2":  "PI- Flowering",
+                         "C3":  "veg- reproductive phase"
+                     },
+                     {
+                         "row":  146,
+                         "C2":  "PI- Flowering",
+                         "C3":  "veg- reproductive phase"
+                     },
+                     {
+                         "row":  147,
+                         "C2":  "PI- Flowering",
+                         "C3":  "veg- reproductive phase"
+                     },
+                     {
+                         "row":  148,
+                         "C2":  "PI- Flowering",
+                         "C3":  "veg- reproductive phase"
+                     },
+                     {
+                         "row":  149,
+                         "C2":  "PI- Flowering",
+                         "C3":  "veg- reproductive phase"
+                     },
+                     {
+                         "row":  150,
+                         "C2":  "PI- Flowering",
+                         "C3":  "veg- reproductive phase"
+                     },
+                     {
+                         "row":  151,
+                         "C2":  "PI- Flowering",
+                         "C3":  "veg- reproductive phase"
+                     },
+                     {
+                         "row":  152,
+                         "C2":  "PI- Flowering",
+                         "C3":  "veg- reproductive phase"
+                     },
+                     {
+                         "row":  153,
+                         "C2":  "PI- Flowering",
+                         "C3":  "veg- reproductive phase"
+                     },
+                     {
+                         "row":  154,
+                         "C2":  "PI- Flowering",
+                         "C3":  "veg- reproductive phase"
+                     },
+                     {
+                         "row":  155,
+                         "C2":  "PI- Flowering",
+                         "C3":  "veg- reproductive phase"
+                     },
+                     {
+                         "row":  157,
+                         "C2":  "Flowering- Maturity",
+                         "C3":  "reproductive phase"
+                     },
+                     {
+                         "row":  158,
+                         "C2":  "Flowering- Maturity",
+                         "C3":  "reproductive phase"
+                     },
+                     {
+                         "row":  159,
+                         "C2":  "Flowering- Maturity",
+                         "C3":  "reproductive phase"
+                     },
+                     {
+                         "row":  160,
+                         "C2":  "Flowering- Maturity",
+                         "C3":  "reproductive phase"
+                     },
+                     {
+                         "row":  161,
+                         "C2":  "Flowering- Maturity",
+                         "C3":  "reproductive phase"
+                     },
+                     {
+                         "row":  162,
+                         "C2":  "Flowering- Maturity",
+                         "C3":  "reproductive phase"
+                     },
+                     {
+                         "row":  163,
+                         "C2":  "Flowering- Maturity",
+                         "C3":  "reproductive phase"
+                     },
+                     {
+                         "row":  164,
+                         "C3":  "reproductive phase"
+                     },
+                     {
+                         "row":  165,
+                         "C3":  "reproductive phase"
+                     },
+                     {
+                         "row":  166,
+                         "C3":  "reproductive phase"
+                     },
+                     {
+                         "row":  167,
+                         "C3":  "reproductive phase"
+                     },
+                     {
+                         "row":  168,
+                         "C3":  "reproductive phase"
+                     },
+                     {
+                         "row":  169,
+                         "C3":  "reproductive phase"
+                     },
+                     {
+                         "row":  170,
+                         "C3":  "reproductive phase"
+                     },
+                     {
+                         "row":  171,
+                         "C3":  "reproductive phase",
+                         "C6":  "Appearance of damage area"
+                     },
+                     {
+                         "row":  172,
+                         "C3":  "reproductive phase"
+                     },
+                     {
+                         "row":  173,
+                         "C3":  "reproductive phase",
+                         "C6":  "presence of insects"
+                     },
+                     {
+                         "row":  174,
+                         "C3":  "reproductive phase",
+                         "C6":  "yes/no"
+                     },
+                     {
+                         "row":  175,
+                         "C3":  "reproductive phase",
+                         "C6":  "part damaged"
+                     },
+                     {
+                         "row":  176,
+                         "C3":  "reproductive phase",
+                         "C6":  "leaf"
+                     },
+                     {
+                         "row":  177,
+                         "C3":  "reproductive phase",
+                         "C6":  "stem"
+                     },
+                     {
+                         "row":  178,
+                         "C3":  "reproductive phase",
+                         "C6":  "root"
+                     },
+                     {
+                         "row":  179,
+                         "C3":  "reproductive phase",
+                         "C6":  "where are insects"
+                     },
+                     {
+                         "row":  180,
+                         "C3":  "reproductive phase",
+                         "C6":  "outside"
+                     },
+                     {
+                         "row":  181,
+                         "C6":  "inside"
+                     },
+                     {
+                         "row":  183,
+                         "C6":  "How does insect look like"
+                     },
+                     {
+                         "row":  184,
+                         "C6":  "p_app"
+                     },
+                     {
+                         "row":  186,
+                         "C6":  "yellowish brown oblong shape"
+                     },
+                     {
+                         "row":  187,
+                         "C6":  "moths are bright white with light brown and black spots"
+                     },
+                     {
+                         "row":  189,
+                         "C6":  "greenish wedge shaped insects with /with out black spots"
+                     },
+                     {
+                         "row":  190,
+                         "C6":  "mosquito like insect with red abdomen"
+                     },
+                     {
+                         "row":  192,
+                         "C6":  "Wavy markings on the forewings"
+                     },
+                     {
+                         "row":  193,
+                         "C6":  "shiny black beetle with spines on the body"
+                     },
+                     {
+                         "row":  194,
+                         "C6":  "shiny black beetle with spines on the body"
+                     },
+                     {
+                         "row":  196,
+                         "C6":  "yellowish brown with white spot on the back"
+                     },
+                     {
+                         "row":  198,
+                         "C6":  "Female moth has pale yellow or light brown front wings each with characteristic single black spot.Male moth is light brown and has two rows of small spots at the tip of each fron wing"
+                     }
+                 ]
+    },
+    {
+        "sheet":  "tillering phase",
+        "rows":  [
+                     {
+                         "row":  4,
+                         "C2":  "Crop stage",
+                         "C3":  "crop stage ",
+                         "C4":  "ecosystem ",
+                         "C5":  "ecosystem ",
+                         "C6":  "status of the crop ",
+                         "C7":  "Appearance of crop from a distance ",
+                         "C8":  "Appearance of damage area",
+                         "C9":  "presence of insects",
+                         "C10":  "part damaged",
+                         "C11":  "specific symptom of damage ",
+                         "C12":  "additional symptom 1",
+                         "C13":  "additional symptom 2",
+                         "C14":  "link to  any dry spell",
+                         "C15":  "If J is yes then link to pest description else link directly from I to pest - insect identification",
+                         "C17":  "link to pest",
+                         "C18":  "control measures"
+                     },
+                     {
+                         "row":  6,
+                         "C1":  "1",
+                         "C2":  "Planting - PI",
+                         "C3":  "vegetative phase",
+                         "C4":  "irrigated",
+                         "C5":  "upland",
+                         "C6":  "unhealthy",
+                         "C7":  "white",
+                         "C8":  "patches",
+                         "C9":  "yes",
+                         "C10":  "leaves",
+                         "C11":  "tips of leaves with silvery streak appearance",
+                         "C12":  "pointed leaf tips ",
+                         "C13":  "dry spell",
+                         "C14":  "yes",
+                         "C17":  " Rice thrips"
+                     },
+                     {
+                         "row":  7,
+                         "C1":  "2",
+                         "C2":  "Planting - PI",
+                         "C3":  "vegetative phase",
+                         "C4":  "irrigated",
+                         "C5":  "upland",
+                         "C6":  "unhealthy",
+                         "C7":  "white",
+                         "C8":  "patches",
+                         "C9":  "yes",
+                         "C10":  "leaves",
+                         "C11":  "white streaks on the leaves due to scraping ",
+                         "C12":  "presence of blue beetles with spines  on the plants ",
+                         "C13":  "grubs found in between the epidermal layers",
+                         "C17":  " Rice hispa"
+                     },
+                     {
+                         "row":  8,
+                         "C1":  "3",
+                         "C2":  "Planting - PI",
+                         "C3":  "vegetative phase",
+                         "C4":  "irrigated",
+                         "C5":  "upland",
+                         "C6":  "unhealthy",
+                         "C7":  "white ",
+                         "C8":  "patches",
+                         "C9":  "yes",
+                         "C10":  "leaves",
+                         "C11":  "white streaks on the leaves due to scraping ",
+                         "C12":  "presence of blue beetles on the plants ",
+                         "C13":  "rolling of the leaves",
+                         "C17":  "blue beetle "
+                     },
+                     {
+                         "row":  9,
+                         "C1":  "4",
+                         "C2":  "Planting - PI",
+                         "C3":  "vegetative phase",
+                         "C4":  "irrigated",
+                         "C5":  "upland",
+                         "C6":  "unhealthy",
+                         "C7":  "white ",
+                         "C8":  "patches",
+                         "C9":  "yes",
+                         "C10":  "leaves",
+                         "C11":  "white streaks on the leaves due to scraping ",
+                         "C12":  "excreta may be seen within the leaf folds",
+                         "C17":  "leaf folder"
+                     },
+                     {
+                         "row":  10,
+                         "C1":  "5",
+                         "C2":  "Planting - PI",
+                         "C3":  "vegetative phase",
+                         "C4":  "irrigated",
+                         "C5":  "upland",
+                         "C6":  "unhealthy",
+                         "C7":  "Yellow",
+                         "C8":  "patches",
+                         "C9":  "yes",
+                         "C10":  "tillers",
+                         "C11":  "yellowing of leaves in the seedlings",
+                         "C17":  "brown planthopper"
+                     },
+                     {
+                         "row":  11,
+                         "C1":  "6",
+                         "C2":  "Planting - PI",
+                         "C3":  "vegetative phase",
+                         "C4":  "irrigated",
+                         "C5":  "upland",
+                         "C6":  "unhealthy",
+                         "C7":  "Yellow",
+                         "C8":  "patches",
+                         "C9":  "yes",
+                         "C10":  "tillers",
+                         "C11":  "Yellowing of central leaf ",
+                         "C12":  "In early stages of infestation, the central shoot comes out easily when pulled.",
+                         "C17":  "stem borer"
+                     },
+                     {
+                         "row":  12,
+                         "C1":  "7",
+                         "C2":  "Planting - PI",
+                         "C3":  "vegetative phase",
+                         "C4":  "irrigated",
+                         "C5":  "upland",
+                         "C7":  "yellow",
+                         "C9":  "yes"
+                     },
+                     {
+                         "row":  13,
+                         "C1":  "8",
+                         "C2":  "Planting - PI",
+                         "C3":  "vegetative phase",
+                         "C5":  "upland",
+                         "C6":  "unhealthy",
+                         "C7":  "Yellow",
+                         "C8":  "patches",
+                         "C9":  "yes",
+                         "C10":  "root",
+                         "C11":  "whole plant yellow",
+                         "C17":  " root aphids"
+                     },
+                     {
+                         "row":  14,
+                         "C1":  "9",
+                         "C2":  "Planting - PI",
+                         "C3":  "vegetative phase",
+                         "C5":  "upland",
+                         "C7":  "Yellow",
+                         "C8":  "patches",
+                         "C9":  "yes",
+                         "C10":  "root ",
+                         "C11":  "whole plant yellow",
+                         "C17":  "termites"
+                     },
+                     {
+                         "row":  15,
+                         "C1":  "10",
+                         "C2":  "Planting - PI",
+                         "C3":  "vegetative phase",
+                         "C4":  "irrigated",
+                         "C5":  "upland",
+                         "C6":  "unhealthy",
+                         "C7":  "yellow",
+                         "C8":  "patches",
+                         "C9":  "yes",
+                         "C10":  "leaves",
+                         "C11":  "leaves with yellow mottling ",
+                         "C14":  "yes ",
+                         "C17":  " leaf mites "
+                     },
+                     {
+                         "row":  16,
+                         "C2":  "Planting - PI",
+                         "C3":  "vegetative phase",
+                         "C5":  "upland",
+                         "C6":  "unhealthy",
+                         "C7":  "Yellow",
+                         "C9":  "yes"
+                     },
+                     {
+                         "row":  17,
+                         "C5":  "upland",
+                         "C7":  "Yellow",
+                         "C8":  "patches",
+                         "C9":  "yes",
+                         "C10":  "leaves",
+                         "C11":  "wilting of the plant",
+                         "C12":  "waxy and powdery coationg on the plants",
+                         "C13":  "movement of ants can also be seen ",
+                         "C14":  "yes ",
+                         "C17":  "mealy bug"
+                     },
+                     {
+                         "row":  18,
+                         "C2":  "Planting - PI",
+                         "C3":  "vegetative phase",
+                         "C5":  "upland",
+                         "C6":  "unhealthy",
+                         "C7":  "Green",
+                         "C9":  "yes",
+                         "C10":  "tillers",
+                         "C11":  "leaf sheath turns into silver shoots ",
+                         "C17":  "gall midge "
+                     },
+                     {
+                         "row":  19,
+                         "C2":  "Planting - PI",
+                         "C3":  "vegetative phase",
+                         "C4":  "dry spell",
+                         "C5":  "upland",
+                         "C6":  "unhealthy",
+                         "C7":  "Green",
+                         "C8":  "uniform",
+                         "C9":  "yes",
+                         "C10":  "leaves",
+                         "C11":  "tips of leaves rolled and pointed",
+                         "C14":  "yes",
+                         "C17":  " Rice thrips"
+                     },
+                     {
+                         "row":  20,
+                         "C2":  "Planting - PI",
+                         "C3":  "vegetative phase",
+                         "C6":  "unhealthy",
+                         "C7":  "Green",
+                         "C8":  "uniform",
+                         "C9":  "yes",
+                         "C10":  "leaves",
+                         "C11":  "grazed appearance of the fied",
+                         "C12":  "leaf tips are cut and the larva forms tubes and they feed from inside ",
+                         "C13":  "water stagnation ",
+                         "C17":  "case worm "
+                     },
+                     {
+                         "row":  21,
+                         "C2":  "Planting - PI",
+                         "C3":  "vegetative phase",
+                         "C5":  "upland",
+                         "C6":  "unhealthy",
+                         "C7":  "Green",
+                         "C8":  "uniform",
+                         "C9":  "yes",
+                         "C11":  "grazed appearance of the fied",
+                         "C12":  "sudden damage occurs  overnight ",
+                         "C14":  "prolonged dryspell followed by rains",
+                         "C17":  "army worm "
+                     },
+                     {
+                         "row":  22,
+                         "C2":  "Planting - PI",
+                         "C3":  "vegetative phase",
+                         "C5":  "upland",
+                         "C9":  "yes",
+                         "C10":  "leaves",
+                         "C12":  "feeding from the margins in zig zag manner",
+                         "C17":  "grasshopper"
+                     },
+                     {
+                         "row":  23,
+                         "C2":  "Planting - PI",
+                         "C3":  "vegetative phase",
+                         "C5":  "upland",
+                         "C9":  "yes"
+                     },
+                     {
+                         "row":  24,
+                         "C2":  "Planting - PI",
+                         "C3":  "vegetative phase",
+                         "C5":  "upland",
+                         "C6":  "unhealthy",
+                         "C7":  "brown ",
+                         "C8":  "patches",
+                         "C9":  "yes",
+                         "C10":  "tillers",
+                         "C11":  "whole plants dried",
+                         "C12":  "presence of exuviae and insects at the base of the plant",
+                         "C13":  "when severe, plants dry in concentric circles",
+                         "C17":  "Brown planthopper"
+                     },
+                     {
+                         "row":  25,
+                         "C2":  "Planting - PI",
+                         "C3":  "vegetative phase",
+                         "C5":  "upland",
+                         "C9":  "yes",
+                         "C10":  "tillers",
+                         "C12":  "presence of exuviae and insects at the base of the plant",
+                         "C13":  "when severe, plants dry in concentric circles",
+                         "C17":  "white backed planthopper"
+                     },
+                     {
+                         "row":  26,
+                         "C2":  "Planting - PI",
+                         "C3":  "vegetative phase",
+                         "C5":  "upland",
+                         "C6":  "unhealthy",
+                         "C7":  "brown ",
+                         "C8":  "patches",
+                         "C9":  "yes",
+                         "C10":  "tillers",
+                         "C11":  "whole plants dried",
+                         "C12":  "In early stages of infestation, the central shoot comes out easily when pulled.",
+                         "C17":  "stem borer"
+                     },
+                     {
+                         "row":  27,
+                         "C2":  "Planting - PI",
+                         "C3":  "vegetative phase",
+                         "C5":  "upland",
+                         "C9":  "yes"
+                     },
+                     {
+                         "row":  28,
+                         "C2":  "Planting - PI",
+                         "C3":  "vegetative phase",
+                         "C5":  "upland",
+                         "C6":  "healthy",
+                         "C7":  "Green",
+                         "C9":  "yes",
+                         "C10":  "tillers",
+                         "C11":  "tips of leaves have egg mass",
+                         "C12":  "yellowish orange adult moths  found on the plants in the morning ",
+                         "C17":  " yellow stem borer"
+                     },
+                     {
+                         "row":  29,
+                         "C2":  "Planting - PI",
+                         "C3":  "vegetative phase",
+                         "C5":  "upland",
+                         "C9":  "yes",
+                         "C10":  "leaves",
+                         "C17":  "green leafhopper"
+                     },
+                     {
+                         "row":  30,
+                         "C2":  "Planting - PI",
+                         "C3":  "vegetative phase",
+                         "C5":  "upland",
+                         "C17":  "gundhi bug"
+                     },
+                     {
+                         "row":  31,
+                         "C2":  "Planting - PI",
+                         "C3":  "vegetative phase",
+                         "C5":  "upland",
+                         "C17":  "white grub"
+                     }
+                 ]
+    },
+    {
+        "sheet":  "reproductive phase",
+        "rows":  [
+                     {
+                         "row":  2,
+                         "C2":  "Reproductive phase"
+                     },
+                     {
+                         "row":  3,
+                         "C2":  "Crop stage",
+                         "C3":  "crop stage "
+                     },
+                     {
+                         "row":  4,
+                         "C1":  "rp1",
+                         "C2":  "Flowering-Maturity",
+                         "C3":  "reproductive phase",
+                         "C4":  "ecosystem ",
+                         "C5":  "ecosystem ",
+                         "C6":  "status of the crop ",
+                         "C7":  "Appearance of crop from a distance ",
+                         "C8":  "Appearance of damage area",
+                         "C9":  "specific symptom of damage ",
+                         "C12":  "presence of insects",
+                         "C13":  "part damaged",
+                         "C14":  "additional symptom 1",
+                         "C15":  "additional symptom 2",
+                         "C16":  "If J is yes then link to pest description else link directly from I to pest ",
+                         "C17":  "link to  any dry spell",
+                         "C18":  "link to pest"
+                     },
+                     {
+                         "row":  5,
+                         "C1":  "rp2",
+                         "C2":  "Flowering-Maturity",
+                         "C3":  "reproductive phase"
+                     },
+                     {
+                         "row":  6,
+                         "C1":  "rp3",
+                         "C2":  "Flowering-Maturity",
+                         "C3":  "reproductive phase",
+                         "C4":  "irrigated",
+                         "C5":  "upland",
+                         "C6":  "unhealthy",
+                         "C7":  "white",
+                         "C8":  "patches",
+                         "C9":  "tips of leaves with silvery streak appearance",
+                         "C12":  "yes",
+                         "C13":  "leaves",
+                         "C14":  "pointed leaf tips ",
+                         "C15":  "dry spell",
+                         "C17":  "yes",
+                         "C18":  " Rice thrips"
+                     },
+                     {
+                         "row":  7,
+                         "C2":  "Flowering-Maturity",
+                         "C3":  "reproductive phase",
+                         "C4":  "irrigated",
+                         "C5":  "upland",
+                         "C6":  "unhealthy",
+                         "C7":  "white",
+                         "C8":  "patches",
+                         "C9":  "white streaks on the leaves due to scraping ",
+                         "C12":  "yes",
+                         "C13":  "leaves",
+                         "C14":  "presence of blue beetles with spines  on the plants ",
+                         "C15":  "grubs found in between the epidermal layers",
+                         "C18":  " Rice hispa"
+                     },
+                     {
+                         "row":  8,
+                         "C2":  "Flowering-Maturity",
+                         "C3":  "reproductive phase",
+                         "C4":  "irrigated",
+                         "C5":  "upland",
+                         "C6":  "unhealthy",
+                         "C7":  "white ",
+                         "C8":  "patches",
+                         "C9":  "white streaks on the leaves due to scraping ",
+                         "C12":  "yes",
+                         "C13":  "leaves",
+                         "C14":  "presence of blue beetles on the plants ",
+                         "C15":  "rolling of the leaves",
+                         "C18":  "blue beetle "
+                     },
+                     {
+                         "row":  9,
+                         "C2":  "Flowering-Maturity",
+                         "C3":  "reproductive phase",
+                         "C4":  "irrigated",
+                         "C5":  "upland",
+                         "C6":  "unhealthy",
+                         "C7":  "white ",
+                         "C8":  "patches",
+                         "C9":  "white streaks on the leaves due to scraping ",
+                         "C12":  "yes",
+                         "C13":  "leaves",
+                         "C14":  "excreta may be seen within the leaf folds",
+                         "C18":  "leaf folder"
+                     },
+                     {
+                         "row":  10,
+                         "C2":  "Flowering-Maturity",
+                         "C3":  "reproductive phase",
+                         "C4":  "irrigated",
+                         "C5":  "upland",
+                         "C6":  "unhealthy",
+                         "C7":  "Yellow",
+                         "C8":  "patches",
+                         "C9":  "yellowing of leaves in the seedlings",
+                         "C12":  "yes",
+                         "C13":  "tillers",
+                         "C18":  "brown planthopper"
+                     },
+                     {
+                         "row":  11,
+                         "C2":  "Flowering-Maturity",
+                         "C3":  "reproductive phase",
+                         "C4":  "irrigated",
+                         "C5":  "upland",
+                         "C6":  "unhealthy",
+                         "C7":  "Yellow",
+                         "C8":  "patches",
+                         "C9":  "Yellowing of central leaf ",
+                         "C12":  "yes",
+                         "C13":  "tillers",
+                         "C14":  "In early stages of infestation, the central shoot comes out easily when pulled.",
+                         "C18":  "stem borer"
+                     },
+                     {
+                         "row":  12,
+                         "C2":  "Flowering-Maturity",
+                         "C3":  "reproductive phase",
+                         "C4":  "irrigated",
+                         "C5":  "upland",
+                         "C6":  "unhealthy",
+                         "C7":  "yellow",
+                         "C12":  "yes"
+                     },
+                     {
+                         "row":  13,
+                         "C2":  "Flowering-Maturity",
+                         "C3":  "reproductive phase",
+                         "C5":  "upland",
+                         "C6":  "unhealthy",
+                         "C7":  "Yellow",
+                         "C8":  "patches",
+                         "C9":  "whole plant yellow",
+                         "C12":  "yes",
+                         "C13":  "root",
+                         "C18":  " root aphids"
+                     },
+                     {
+                         "row":  14,
+                         "C2":  "Flowering-Maturity",
+                         "C3":  "reproductive phase",
+                         "C5":  "upland",
+                         "C6":  "unhealthy",
+                         "C7":  "Yellow",
+                         "C8":  "patches",
+                         "C9":  "whole plant yellow",
+                         "C12":  "yes",
+                         "C13":  "root ",
+                         "C18":  "termites"
+                     },
+                     {
+                         "row":  15,
+                         "C2":  "Flowering-Maturity",
+                         "C3":  "reproductive phase",
+                         "C4":  "irrigated",
+                         "C5":  "upland",
+                         "C6":  "unhealthy",
+                         "C7":  "yellow",
+                         "C8":  "patches",
+                         "C9":  "leaves with yellow mottling ",
+                         "C12":  "yes",
+                         "C13":  "leaves",
+                         "C17":  "yes ",
+                         "C18":  " leaf mites "
+                     },
+                     {
+                         "row":  16,
+                         "C2":  "Flowering-Maturity",
+                         "C3":  "reproductive phase",
+                         "C5":  "upland",
+                         "C6":  "unhealthy",
+                         "C7":  "Yellow",
+                         "C12":  "yes"
+                     },
+                     {
+                         "row":  17,
+                         "C2":  "Flowering-Maturity",
+                         "C3":  "reproductive phase",
+                         "C5":  "upland",
+                         "C7":  "Yellow",
+                         "C8":  "patches",
+                         "C9":  "wilting of the plant",
+                         "C12":  "yes",
+                         "C13":  "leaves",
+                         "C14":  "waxy and powdery coationg on the plants",
+                         "C15":  "movement of ants can also be seen ",
+                         "C17":  "yes ",
+                         "C18":  "mealy bug"
+                     },
+                     {
+                         "row":  18,
+                         "C2":  "Flowering-Maturity",
+                         "C3":  "reproductive phase",
+                         "C5":  "upland",
+                         "C6":  "unhealthy",
+                         "C7":  "Green",
+                         "C9":  "leaf sheath turns into silver shoots ",
+                         "C12":  "yes",
+                         "C13":  "tillers",
+                         "C18":  "gall midge "
+                     },
+                     {
+                         "row":  19,
+                         "C2":  "Flowering-Maturity",
+                         "C3":  "reproductive phase",
+                         "C4":  "dry spell",
+                         "C5":  "upland",
+                         "C6":  "unhealthy",
+                         "C7":  "Green",
+                         "C8":  "uniform",
+                         "C9":  "tips of leaves rolled and pointed",
+                         "C12":  "yes",
+                         "C13":  "leaves",
+                         "C17":  "yes",
+                         "C18":  " Rice thrips"
+                     },
+                     {
+                         "row":  20,
+                         "C2":  "Flowering-Maturity",
+                         "C3":  "reproductive phase",
+                         "C6":  "unhealthy",
+                         "C7":  "Green",
+                         "C8":  "uniform",
+                         "C9":  "grazed appearance of the fied",
+                         "C12":  "yes",
+                         "C13":  "leaves",
+                         "C14":  "leaf tips are cut and the larva forms tubes and they feed from inside ",
+                         "C15":  "water stagnation ",
+                         "C18":  "case worm "
+                     },
+                     {
+                         "row":  21,
+                         "C2":  "Flowering-Maturity",
+                         "C3":  "reproductive phase",
+                         "C5":  "upland",
+                         "C6":  "unhealthy",
+                         "C7":  "Green",
+                         "C8":  "uniform",
+                         "C9":  "grazed appearance of the fied",
+                         "C12":  "yes",
+                         "C14":  "sudden damage occurs  overnight ",
+                         "C17":  "prolonged dryspell followed by rains",
+                         "C18":  "army worm "
+                     },
+                     {
+                         "row":  22,
+                         "C2":  "Flowering-Maturity",
+                         "C3":  "reproductive phase",
+                         "C5":  "upland",
+                         "C12":  "yes",
+                         "C13":  "leaves",
+                         "C14":  "feeding from the margins in zig zag manner",
+                         "C18":  "grasshopper"
+                     },
+                     {
+                         "row":  23,
+                         "C2":  "Flowering-Maturity",
+                         "C3":  "reproductive phase",
+                         "C5":  "upland",
+                         "C12":  "yes"
+                     },
+                     {
+                         "row":  24,
+                         "C2":  "Flowering-Maturity",
+                         "C3":  "reproductive phase",
+                         "C5":  "upland",
+                         "C6":  "unhealthy",
+                         "C7":  "brown ",
+                         "C8":  "patches",
+                         "C9":  "whole plants dried",
+                         "C12":  "yes",
+                         "C13":  "tillers",
+                         "C14":  "presence of exuviae and insects at the base of the plant",
+                         "C15":  "when severe, plants dry in concentric circles",
+                         "C18":  "Brown planthopper"
+                     },
+                     {
+                         "row":  25,
+                         "C2":  "Flowering-Maturity",
+                         "C3":  "reproductive phase",
+                         "C5":  "upland",
+                         "C12":  "yes",
+                         "C13":  "tillers",
+                         "C14":  "presence of exuviae and insects at the base of the plant",
+                         "C15":  "when severe, plants dry in concentric circles",
+                         "C18":  "white backed planthopper"
+                     },
+                     {
+                         "row":  26,
+                         "C2":  "Flowering-Maturity",
+                         "C3":  "reproductive phase",
+                         "C5":  "upland",
+                         "C6":  "unhealthy",
+                         "C7":  "brown ",
+                         "C8":  "patches",
+                         "C9":  "whole plants dried",
+                         "C12":  "yes",
+                         "C13":  "tillers",
+                         "C14":  "In early stages of infestation, the central shoot comes out easily when pulled.",
+                         "C18":  "stem borer"
+                     },
+                     {
+                         "row":  27,
+                         "C2":  "Flowering-Maturity",
+                         "C3":  "reproductive phase",
+                         "C5":  "upland",
+                         "C12":  "yes"
+                     },
+                     {
+                         "row":  28,
+                         "C2":  "Flowering-Maturity",
+                         "C3":  "reproductive phase",
+                         "C5":  "upland",
+                         "C6":  "healthy",
+                         "C7":  "Green",
+                         "C9":  "tips of leaves have egg mass",
+                         "C12":  "yes",
+                         "C13":  "tillers",
+                         "C14":  "yellowish orange adult moths  found on the plants in the morning ",
+                         "C18":  " yellow stem borer"
+                     },
+                     {
+                         "row":  29,
+                         "C2":  "Flowering-Maturity",
+                         "C3":  "reproductive phase",
+                         "C5":  "upland",
+                         "C12":  "yes",
+                         "C13":  "leaves",
+                         "C18":  "green leafhopper"
+                     },
+                     {
+                         "row":  30,
+                         "C5":  "upland",
+                         "C18":  "gundhi bug"
+                     },
+                     {
+                         "row":  31,
+                         "C5":  "upland",
+                         "C18":  "white grub"
+                     }
+                 ]
+    },
+    {
+        "sheet":  "Sheet1",
+        "rows":  [
+                     {
+                         "row":  2,
+                         "C3":  "eco_code",
+                         "C4":  "eco_name",
+                         "C5":  "Eco_system"
+                     },
+                     {
+                         "row":  3,
+                         "C3":  "DW",
+                         "C4":  "Deep Water",
+                         "C5":  "Deep Water"
+                     },
+                     {
+                         "row":  4,
+                         "C3":  "HRIR",
+                         "C4":  "Hill Rice Irrigated",
+                         "C5":  "Irrigated"
+                     },
+                     {
+                         "row":  5,
+                         "C3":  "HRUP",
+                         "C4":  "Hill Rice Upland",
+                         "C5":  "Rainfed"
+                     },
+                     {
+                         "row":  6,
+                         "C3":  "IR",
+                         "C4":  "Irrigated",
+                         "C5":  "Irrigated",
+                         "C8":  "ecosystem "
+                     },
+                     {
+                         "row":  7,
+                         "C3":  "IRAK",
+                         "C4":  "Irrigated Alkaline soils",
+                         "C5":  "Irrigated"
+                     },
+                     {
+                         "row":  8,
+                         "C3":  "IRB",
+                         "C4":  "Irrigated Boro",
+                         "C5":  "Irrigated"
+                     },
+                     {
+                         "row":  9,
+                         "C3":  "IRE(Boro)",
+                         "C4":  "Irrigated Early",
+                         "C5":  "Irrigated"
+                     },
+                     {
+                         "row":  10,
+                         "C3":  "IRL",
+                         "C4":  "Irrigated Lowland",
+                         "C5":  "Irrigated"
+                     },
+                     {
+                         "row":  11,
+                         "C3":  "IRM",
+                         "C4":  "Irrigated Medium",
+                         "C5":  "Irrigated"
+                     },
+                     {
+                         "row":  12,
+                         "C3":  "IRME",
+                         "C4":  "Irrigated Medium Early",
+                         "C5":  "Irrigated"
+                     },
+                     {
+                         "row":  13,
+                         "C3":  "IRSA",
+                         "C4":  "Irrigated Saline Alkaline",
+                         "C5":  "irrigated"
+                     },
+                     {
+                         "row":  14,
+                         "C3":  "IRU",
+                         "C4":  "Irrigated Upland",
+                         "C5":  "Irrigated"
+                     },
+                     {
+                         "row":  15,
+                         "C3":  "RDW",
+                         "C4":  "Rainfed Deep Water",
+                         "C5":  "Rainfed"
+                     },
+                     {
+                         "row":  16,
+                         "C3":  "RSL",
+                         "C4":  "Rainfed Shallow Land",
+                         "C5":  "Rainfed"
+                     },
+                     {
+                         "row":  17,
+                         "C3":  "RUP",
+                         "C4":  "Rainfed Upland",
+                         "C5":  "Rainfed"
+                     },
+                     {
+                         "row":  18,
+                         "C3":  "SCR",
+                         "C4":  "Scented"
+                     }
+                 ]
+    },
+    {
+        "sheet":  "Sheet2",
+        "rows":  [
+                     {
+                         "row":  3,
+                         "C2":  "Crop stage",
+                         "C3":  "crop stage ",
+                         "C4":  "status of the crop ",
+                         "C5":  "Appearance of crop from a distance ",
+                         "C6":  "Appearance of damage area",
+                         "C7":  "specific symptom of damage ",
+                         "C8":  "additional symptom 1",
+                         "C9":  "additional symptom 2",
+                         "C10":  "link to pest"
+                     },
+                     {
+                         "row":  4,
+                         "C1":  "N1",
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "white",
+                         "C6":  "uniform",
+                         "C7":  "nutritional disorder"
+                     },
+                     {
+                         "row":  5,
+                         "C1":  "N2",
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "white",
+                         "C6":  "patches",
+                         "C7":  "tips of leaves with silvery streak appearance",
+                         "C9":  "dry spell",
+                         "C10":  " Rice thrips"
+                     },
+                     {
+                         "row":  6,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "white",
+                         "C6":  "patches",
+                         "C7":  "white streaks on the leaves due to scraping ",
+                         "C8":  "presence of blackish  blue beetles with spines,  on the plants ",
+                         "C9":  "grubs found in between the epidermal layers",
+                         "C10":  " Rice hispa"
+                     },
+                     {
+                         "row":  7,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "white ",
+                         "C6":  "patches",
+                         "C7":  "white streaks on the leaves due to scraping ",
+                         "C8":  "presence of blue beetles on the plants ",
+                         "C9":  "rolling of the leaves",
+                         "C10":  "blue beetle "
+                     },
+                     {
+                         "row":  8,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "white ",
+                         "C6":  "patches",
+                         "C7":  "white streaks on the leaves due to scraping ",
+                         "C8":  "excreta may be seen within the leaf folds",
+                         "C9":  "some of the leaves are folded and when opened larva is found in the leaves.",
+                         "C10":  "leaffolder"
+                     },
+                     {
+                         "row":  9,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "white ",
+                         "C6":  "patches",
+                         "C7":  "ladder like appearance of the damage due to scraping of the epidermis",
+                         "C8":  "leaf tips are cut and the larva forms cases  and they scrape the upper epidermis ",
+                         "C9":  "cases with larvae are found on the near base of the plant",
+                         "C10":  "case worm"
+                     },
+                     {
+                         "row":  10,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy"
+                     },
+                     {
+                         "row":  11,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy"
+                     },
+                     {
+                         "row":  12,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy"
+                     },
+                     {
+                         "row":  13,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "yellow",
+                         "C6":  "uniform"
+                     },
+                     {
+                         "row":  14,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "Yellow",
+                         "C6":  "patches",
+                         "C7":  "yellowing of leaves in the seedlings",
+                         "C10":  "brown planthopper"
+                     },
+                     {
+                         "row":  15,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "Yellow",
+                         "C6":  "patches",
+                         "C7":  "Yellowing of central leaf ",
+                         "C10":  "stem borer"
+                     },
+                     {
+                         "row":  16,
+                         "C5":  "yellow"
+                     },
+                     {
+                         "row":  17,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "Yellow",
+                         "C6":  "patches",
+                         "C7":  "whole plant yellow",
+                         "C9":  "upland area",
+                         "C10":  "aphids"
+                     },
+                     {
+                         "row":  18,
+                         "C5":  "Yellow",
+                         "C6":  "patches",
+                         "C7":  "whole plant yellow",
+                         "C9":  "upland area",
+                         "C10":  "termites"
+                     },
+                     {
+                         "row":  19,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "yellow",
+                         "C6":  "patches",
+                         "C7":  "leaves with yellow mottling ",
+                         "C9":  "dry spell",
+                         "C10":  " leaf mites "
+                     },
+                     {
+                         "row":  20,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "Yellow"
+                     },
+                     {
+                         "row":  21,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "Green",
+                         "C7":  "leaf sheath turns into silver shoots ",
+                         "C10":  "gall midge "
+                     },
+                     {
+                         "row":  22,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "Green",
+                         "C6":  "uniform",
+                         "C7":  "tips of leaves rolled and pointed",
+                         "C9":  "dry spell",
+                         "C10":  " Rice thrips"
+                     },
+                     {
+                         "row":  23,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "Green",
+                         "C6":  "patchy",
+                         "C7":  "ladder like apperance of the damage due to scraping of the epidermis",
+                         "C8":  "leaf tips are cut and the larva forms cases  and they scrpe the upper epidermis ",
+                         "C9":  "water stagnation ",
+                         "C10":  "case worm "
+                     },
+                     {
+                         "row":  24,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "Green",
+                         "C6":  "uniform",
+                         "C7":  "grazed appearance of the fied",
+                         "C8":  "sudden damage occurs  overnight ",
+                         "C10":  "army worm "
+                     },
+                     {
+                         "row":  25,
+                         "C8":  "feeding from the margins in zig zag manner",
+                         "C10":  "grasshopper"
+                     },
+                     {
+                         "row":  27,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C4":  "unhealthy",
+                         "C5":  "brown ",
+                         "C6":  "patches",
+                         "C7":  "whole plants dried",
+                         "C8":  "presence of exuviae and insects at the base of the plant",
+                         "C9":  "when severe drying in concentric circles",
+                         "C10":  "Brown planthopper"
+                     },
+                     {
+                         "row":  28,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C6":  "patches",
+                         "C7":  "whole plants dried",
+                         "C8":  "presence of exuviae and insects at the base of the plant",
+                         "C9":  "when severe drying in concentric circles",
+                         "C10":  "white backed planthopper"
+                     },
+                     {
+                         "row":  29,
+                         "C2":  "Nursery",
+                         "C3":  "Nursery",
+                         "C6":  "patches",
+                         "C7":  "whole plants dried",
+                         "C8":  "presence of exuviae and insects at the base of the plant",
+                         "C9":  "when severe drying in concentric circles",
+                         "C10":  "black bug "
+                     }
+                 ]
+    }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "stage": "Nursery",
+    "focus": ["Seed treatment", "Moisture management", "Weed control"]
+  },
+  {
+    "stage": "Transplanting",
+    "focus": ["Healthy seedlings", "Spacing", "Initial fertilizer"]
+  },
+  {
+    "stage": "Tillering",
+    "focus": ["Nitrogen split", "Water management", "Disease scouting"]
+  }
+]
+

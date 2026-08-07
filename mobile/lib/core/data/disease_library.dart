@@ -1,0 +1,53 @@
+import '../models/disease.dart';
+
+final List<DiseaseCard> diseaseLibrary = [
+  DiseaseCard(
+    name: 'Leaf Blast',
+    aliases: const ['blast', 'rice blast'],
+    symptoms: 'Spindle-shaped lesions on leaves, neck rot, and drying patches.',
+    cause: 'Fungal infection favored by humidity and excess nitrogen.',
+    treatment: 'Improve airflow, remove infected leaves, and use approved fungicide if needed.',
+    prevention: 'Use resistant varieties, clean seed, and balanced nutrition.',
+    recommendedFungicide: 'Follow local extension advice for a suitable fungicide.',
+    organicSolution: 'Support integrated management with silica and biological practices.',
+    farmerTips: 'Avoid overcrowding and inspect after rainy or foggy weather.',
+    fertilizerRecommendation: 'Reduce excess nitrogen and keep potassium adequate.',
+  ),
+  DiseaseCard(
+    name: 'Brown Spot',
+    aliases: const ['brown spot disease'],
+    symptoms: 'Oval brown lesions with darker edges and reduced leaf area.',
+    cause: 'Fungal disease linked to stress and poor fertility.',
+    treatment: 'Improve soil nutrition, sanitize residue, and treat if needed.',
+    prevention: 'Use healthy seed and a balanced fertilizer plan.',
+    recommendedFungicide: 'Use a locally approved fungicide according to label directions.',
+    organicSolution: 'Use compost and biological options as part of integrated control.',
+    farmerTips: 'Watch for nutrient stress, especially in older fields.',
+    fertilizerRecommendation: 'Increase balanced NPK support with soil-test guidance.',
+  ),
+  DiseaseCard(
+    name: 'Bacterial Blight',
+    aliases: const ['blight'],
+    symptoms: 'Yellow to white stripes, wilting, and drying leaf tips.',
+    cause: 'Bacterial infection spread by rain splash and infected residues.',
+    treatment: 'Remove infected debris and follow local bactericide guidance.',
+    prevention: 'Use resistant varieties and avoid excess nitrogen.',
+    recommendedFungicide: 'Fungicides are often not effective; confirm with local extension service.',
+    organicSolution: 'Practice sanitation and biological management to reduce spread.',
+    farmerTips: 'Reduce plant stress and avoid wounds during field work.',
+    fertilizerRecommendation: 'Use modest nitrogen with strong potassium support.',
+  ),
+  DiseaseCard(
+    name: 'Healthy',
+    aliases: const ['normal', 'healthy leaf'],
+    symptoms: 'Green, upright leaves with no major lesions or discoloration.',
+    cause: 'Crop is currently healthy.',
+    treatment: 'Keep monitoring irrigation, nutrition, and pests.',
+    prevention: 'Maintain balanced crop care and field sanitation.',
+    recommendedFungicide: 'No fungicide needed.',
+    organicSolution: 'Continue compost and biological support as preventive care.',
+    farmerTips: 'Regular scouting prevents bigger issues later.',
+    fertilizerRecommendation: 'Follow a stage-based fertilizer plan.',
+  ),
+];
+

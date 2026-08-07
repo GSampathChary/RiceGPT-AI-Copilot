@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Leaf Blast",
+    "aliases": ["blast", "rice blast"],
+    "symptoms": "Spindle-shaped lesions on leaves, neck rot, and drying patches under humid conditions.",
+    "cause": "Fungal infection favored by high humidity, excess nitrogen, and dense crop canopies.",
+    "treatment": "Remove heavily infected leaves, keep fields airy, and apply a recommended fungicide if disease pressure is high.",
+    "prevention": "Use resistant varieties, balanced nitrogen, and clean seed.",
+    "recommended_fungicide": "Follow local extension guidance for tricyclazole or another locally approved fungicide.",
+    "organic_solution": "Support plants with silica-rich nutrition and biological control practices as part of integrated management.",
+    "farmer_tips": "Avoid overwatering and inspect fields after heavy dew or rain.",
+    "fertilizer_recommendation": "Reduce excess nitrogen and keep potassium adequate."
+  },
+  {
+    "name": "Brown Spot",
+    "aliases": ["brown spot disease"],
+    "symptoms": "Oval brown lesions with darker edges that may merge and reduce leaf area.",
+    "cause": "Fungal disease often linked to poor soil fertility and plant stress.",
+    "treatment": "Improve nutrition, sanitize crop residues, and apply a fungicide when necessary.",
+    "prevention": "Use balanced fertilization and healthy seed.",
+    "recommended_fungicide": "Use a locally recommended fungicide according to label directions.",
+    "organic_solution": "Biological sprays and compost-based nutrition can support recovery.",
+    "farmer_tips": "Check soil potassium and avoid stressing the crop during dry spells.",
+    "fertilizer_recommendation": "Increase balanced NPK nutrition with soil-test guidance."
+  },
+  {
+    "name": "Bacterial Blight",
+    "aliases": ["blight"],
+    "symptoms": "Yellow to white leaf stripes, wilting, and drying of leaf tips in severe cases.",
+    "cause": "Bacterial infection spread by rain splash, wind, and infected plant material.",
+    "treatment": "Remove infected debris and use approved bactericide guidance from local experts.",
+    "prevention": "Use resistant varieties and avoid excess nitrogen.",
+    "recommended_fungicide": "Bacterial disease management should follow local recommendations, as fungicides are often not effective.",
+    "organic_solution": "Use bio-control and sanitation practices to reduce spread.",
+    "farmer_tips": "Reduce plant stress and avoid injuries during field operations.",
+    "fertilizer_recommendation": "Use modest nitrogen with strong potassium support."
+  },
+  {
+    "name": "Healthy",
+    "aliases": ["normal", "healthy leaf"],
+    "symptoms": "Green, upright leaves with no visible lesions or major discoloration.",
+    "cause": "Crop is currently showing good health.",
+    "treatment": "Keep monitoring irrigation, nutrition, and pest pressure.",
+    "prevention": "Maintain balanced crop care and field sanitation.",
+    "recommended_fungicide": "No fungicide needed when the crop is healthy.",
+    "organic_solution": "Continue using compost and biological support as a preventive practice.",
+    "farmer_tips": "Regular scouting is the best way to stay ahead of problems.",
+    "fertilizer_recommendation": "Follow a stage-based fertilizer plan."
+  }
+]
+
