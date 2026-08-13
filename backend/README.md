@@ -23,17 +23,16 @@ Important values:
 
 Supported model types
 ---------------------
-- Keras `.h5`
-- Keras `.keras`
-- TensorFlow SavedModel directory
 - PyTorch `.pt` / `.pth` for TorchScript exports
+- Keras `.h5` / `.keras` for local development only
+- TensorFlow SavedModel for local development only
 
 Recommended local paths
 -----------------------
-- `backend/models/rice_disease_model.h5`
-- `backend/models/rice_disease_model.keras`
 - `backend/models/rice_disease_model.pt`
 - `backend/models/rice_disease_model.pth`
+- `backend/models/rice_disease_model.h5`
+- `backend/models/rice_disease_model.keras`
 - `backend/models/rice_disease_savedmodel/`
 
 Placeholder folder
@@ -43,6 +42,8 @@ Placeholder folder
 This folder is tracked only as a layout reference. Put your real model files in `backend/models/` locally, then point `MODEL_PATH` at the exact file or folder you want the backend to use.
 
 If you want to share the trained weights without bloating the repository, attach them to a GitHub Release as separate assets.
+
+For Render, keep the production backend focused on the PyTorch `.pth` model and Gemini. The checked-in `requirements.txt` no longer installs TensorFlow or Keras, so hosted deploys do not try to resolve those packages.
 
 Run locally
 -----------
@@ -66,6 +67,7 @@ Recommended Render settings:
   - `SERVER_HOST=0.0.0.0`
   - `MODEL_DOWNLOAD_URL=https://.../rice_disease_model.pth` if you store the weights in a GitHub Release or other public file URL
   - `PORT` supplied by Render
+  - `PYTHON_VERSION=3.12.8` if you prefer setting the version in the Render dashboard instead of using `runtime.txt`
 
 After deployment, copy the Render URL and use it when building the Flutter web app with `--dart-define=RICEGPT_API_BASE_URL=...`.
 
