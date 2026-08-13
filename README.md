@@ -47,6 +47,31 @@ How to run the Flutter app
 4. Android emulator default backend URL is `http://10.0.2.2:8000`
 5. iOS simulator and desktop default backend URL is `http://127.0.0.1:8000`
 
+Deploying for a public demo
+---------------------------
+1. Deploy the FastAPI backend to Render as a Web Service.
+2. Set these Render environment variables:
+   - `GEMINI_API_KEY`
+   - `SELECTED_PROVIDER=gemini`
+   - `SERVER_HOST=0.0.0.0`
+   - `PORT=10000` if your Render setup expects a fixed port, or let Render provide `PORT`
+3. Build the Flutter web app from `mobile`:
+
+```powershell
+flutter build web --release --dart-define=RICEGPT_API_BASE_URL=https://your-render-backend-url.onrender.com
+```
+
+4. Upload the `mobile/build/web` output to Firebase Hosting or Cloudflare Pages.
+5. In your separate portfolio repo, set `links.live` to the public Flutter web URL.
+
+If you deploy to Firebase Hosting:
+- Use the Flutter web build output as the hosting source.
+- Firebase Hosting is designed for static web assets and gives you a `web.app` / `firebaseapp.com` URL.
+
+If you deploy to Cloudflare Pages:
+- Use the built `web` folder as the Pages output directory.
+- Cloudflare Pages gives you a `pages.dev` URL and preview deployments for branches and pull requests.
+
 API endpoints
 -------------
 - `GET /health`

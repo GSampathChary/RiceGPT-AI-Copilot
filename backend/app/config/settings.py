@@ -37,7 +37,7 @@ class Settings:
         self.log_level: str = get("LOG_LEVEL", "INFO") or "INFO"
         self.cors_origins: str = get("CORS_ORIGINS", "*") or "*"
         self.server_host: str = get("SERVER_HOST", "0.0.0.0") or "0.0.0.0"
-        self.server_port: int = int(get("SERVER_PORT", "8000") or "8000")
+        self.server_port: int = int(get("PORT", get("SERVER_PORT", "8000") or "8000") or "8000")
 
         self.storage_dir: Path = project_root / "storage"
         self.uploads_dir: Path = self.storage_dir / "uploads"

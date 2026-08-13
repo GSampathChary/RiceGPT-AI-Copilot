@@ -5,8 +5,15 @@ class AppConfig {
   static const appVersion = '1.0.0';
   static const defaultProvider = 'gemini';
   static const defaultLanguage = 'English';
+  static const String productionBaseUrl = String.fromEnvironment(
+    'RICEGPT_API_BASE_URL',
+    defaultValue: '',
+  );
 
   static String get defaultBaseUrl {
+    if (productionBaseUrl.isNotEmpty) {
+      return productionBaseUrl;
+    }
     if (kIsWeb) {
       return 'http://127.0.0.1:8000';
     }

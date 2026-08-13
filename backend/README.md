@@ -53,6 +53,21 @@ python -m app.main
 
 The API will be available at `http://127.0.0.1:8000` on the host machine and `http://10.0.2.2:8000` from an Android emulator.
 
+Deploying to Render
+-------------------
+Render should run the service on `0.0.0.0` and use the port exposed by the platform. This backend now reads `PORT` automatically, so you can use Render's web service defaults safely.
+
+Recommended Render settings:
+- Build command: `pip install -r requirements.txt`
+- Start command: `python -m app.main`
+- Environment variables:
+  - `GEMINI_API_KEY`
+  - `SELECTED_PROVIDER=gemini`
+  - `SERVER_HOST=0.0.0.0`
+  - `PORT` supplied by Render
+
+After deployment, copy the Render URL and use it when building the Flutter web app with `--dart-define=RICEGPT_API_BASE_URL=...`.
+
 Useful endpoints
 ----------------
 - `GET /api/labels` for the model stress-label catalog
