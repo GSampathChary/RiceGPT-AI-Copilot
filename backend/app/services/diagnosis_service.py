@@ -2,6 +2,8 @@ from __future__ import annotations
 
 import json
 import os
+from urllib.parse import urlparse
+from urllib.request import urlopen
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
@@ -25,7 +27,32 @@ class DiagnosisService:
         self.provider_manager = provider_manager
         self.history_service = history_service
         self.diseases = self._load_library("diseases.json")
+        self._prepare_model_artifact()
         self.predictor = self._create_predictor()
+
+    def _prepare_model_artifact(self) -> None:
+        if self.settings.model_path and self.settings.model_path.exists():
+            return
+        if not self.settings.model_download_url:
+            return
+        target = self._download_model(self.settings.model_download_url)
+        if target:
+            self.settings.model_path = target
+
+    def _download_model(self, url: str) -> Optional[Path]:
+        parsed = urlparse(url)
+        filename = Path(parsed.path).name or "rice_disease_model.pth"
+        target_dir = self.settings.storage_dir / "models"
+        target_dir.mkdir(parents=True, exist_ok=True)
+        target = target_dir / filename
+        if target.exists() and target.stat().st_size > 0:
+            return target
+        try:
+            with urlopen(url, timeout=self.settings.request_timeout_seconds) as response:
+                target.write_bytes(response.read())
+            return target
+        except Exception:
+            return None
 
     def _load_library(self, filename: str) -> list:
         path = self.settings.knowledge_dir / filename

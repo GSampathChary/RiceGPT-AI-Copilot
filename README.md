@@ -26,6 +26,11 @@ The repository includes a small placeholder folder at:
 
 Use it as a reference for the expected layout, but keep the actual large weights local or attach them to a GitHub Release.
 
+If you want Render to load the model automatically, set:
+- `MODEL_DOWNLOAD_URL=https://.../rice_disease_model.pth`
+
+The backend will download that file on startup if `MODEL_PATH` is empty. This is the easiest way to keep the trained weights out of GitHub while still preserving real predictions in production.
+
 How to run the backend
 ----------------------
 1. Copy `backend/.env.example` to `backend/.env`
@@ -54,6 +59,7 @@ Deploying for a public demo
    - `GEMINI_API_KEY`
    - `SELECTED_PROVIDER=gemini`
    - `SERVER_HOST=0.0.0.0`
+   - `MODEL_DOWNLOAD_URL=https://.../rice_disease_model.pth` if you are hosting the weights elsewhere
    - `PORT=10000` if your Render setup expects a fixed port, or let Render provide `PORT`
 3. Build the Flutter web app from `mobile`:
 

@@ -61,6 +61,7 @@ class Settings:
 
         model_path_value = get("MODEL_PATH")
         self.model_path: Optional[Path] = Path(model_path_value) if model_path_value else self.default_model_path
+        self.model_download_url: Optional[str] = get("MODEL_DOWNLOAD_URL")
         self.model_type: str = get("MODEL_TYPE", "auto") or "auto"
         self.model_labels: str = get(
             "MODEL_LABELS",

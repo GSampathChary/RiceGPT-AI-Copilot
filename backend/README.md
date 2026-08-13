@@ -64,6 +64,7 @@ Recommended Render settings:
   - `GEMINI_API_KEY`
   - `SELECTED_PROVIDER=gemini`
   - `SERVER_HOST=0.0.0.0`
+  - `MODEL_DOWNLOAD_URL=https://.../rice_disease_model.pth` if you store the weights in a GitHub Release or other public file URL
   - `PORT` supplied by Render
 
 After deployment, copy the Render URL and use it when building the Flutter web app with `--dart-define=RICEGPT_API_BASE_URL=...`.
