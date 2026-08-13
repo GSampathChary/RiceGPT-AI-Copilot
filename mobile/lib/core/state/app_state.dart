@@ -33,6 +33,7 @@ class AppState extends ChangeNotifier {
   bool isBootstrapped = false;
   bool isBusy = false;
   bool isDiagnosing = false;
+  bool backendHealthy = false;
   final List<String> providers = ['gemini', 'openai', 'claude', 'grok', 'deepseek', 'ollama'];
   List<ChatMessage> currentConversation = [];
   List<ChatThread> chatHistory = [];
@@ -68,9 +69,11 @@ class AppState extends ChangeNotifier {
       }
       diseases = await _apiClient.fetchLibrary();
       stressLabels = await _apiClient.fetchLabels();
+      backendHealthy = await _apiClient.health();
     } catch (_) {
       diseases = diseaseLibrary;
       stressLabels = stressLabelsCatalog;
+      backendHealthy = false;
     }
 
     isBootstrapped = true;
@@ -81,6 +84,12 @@ class AppState extends ChangeNotifier {
     settings = settings.copyWith(baseUrl: _normalizeBaseUrl(value.trim().isEmpty ? AppConfig.defaultBaseUrl : value.trim()));
     _apiClient.baseUrl = settings.baseUrl;
     await _persistSettings();
+    backendHealthy = await _apiClient.health();
+    notifyListeners();
+  }
+
+  Future<void> refreshBackendStatus() async {
+    backendHealthy = await _apiClient.health();
     notifyListeners();
   }
 

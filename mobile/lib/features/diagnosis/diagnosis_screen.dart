@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:provider/provider.dart';
 
@@ -70,6 +71,11 @@ class _DiagnosisScreenState extends State<DiagnosisScreen> {
             ),
             const SizedBox(height: 12),
             _ExplanationCard(result: state.latestDiagnosis!),
+            const SizedBox(height: 12),
+            _SummaryCard(
+              result: state.latestDiagnosis!,
+              onCopy: () => _copySummary(context, state.latestDiagnosis!),
+            ),
           ],
           const SizedBox(height: 20),
           if (state.diseases.isNotEmpty)
@@ -93,6 +99,23 @@ class _DiagnosisScreenState extends State<DiagnosisScreen> {
       ),
     );
   }
+}
+
+void _copySummary(BuildContext context, DiagnosisResult result) {
+  final summary = [
+    'RiceGPT Diagnosis Summary',
+    'Disease: ${result.disease}',
+    'Confidence: ${(result.confidence * 100).toStringAsFixed(1)}%',
+    'Provider: ${result.provider.toUpperCase()}',
+    'Symptoms: ${result.explanation.symptoms}',
+    'Treatment: ${result.explanation.treatment}',
+    'Prevention: ${result.explanation.prevention}',
+  ].join('\n');
+
+  Clipboard.setData(ClipboardData(text: summary));
+  ScaffoldMessenger.of(context).showSnackBar(
+    const SnackBar(content: Text('Diagnosis summary copied to clipboard')),
+  );
 }
 
 class _ImageCard extends StatelessWidget {
@@ -217,6 +240,51 @@ class _ExplanationCard extends StatelessWidget {
             _DetailRow(title: 'Organic Solution', value: explanation.organicSolution),
             _DetailRow(title: 'Farmer Tips', value: explanation.farmerTips),
             _DetailRow(title: 'Fertilizer Recommendation', value: explanation.fertilizerRecommendation),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _SummaryCard extends StatelessWidget {
+  const _SummaryCard({required this.result, required this.onCopy});
+
+  final DiagnosisResult result;
+  final VoidCallback onCopy;
+
+  @override
+  Widget build(BuildContext context) {
+    return Card(
+      child: Padding(
+        padding: const EdgeInsets.all(18),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(
+              children: [
+                Expanded(
+                  child: Text(
+                    'Quick Summary',
+                    style: Theme.of(context).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w800),
+                  ),
+                ),
+                OutlinedButton.icon(
+                  onPressed: onCopy,
+                  icon: const Icon(Icons.copy, size: 18),
+                  label: const Text('Copy'),
+                ),
+              ],
+            ),
+            const SizedBox(height: 10),
+            Text(
+              'Use this summary for sharing with a farmer, agronomist, or WhatsApp chat.',
+              style: Theme.of(context).textTheme.bodyMedium,
+            ),
+            const SizedBox(height: 10),
+            _DetailRow(title: 'Disease', value: result.disease),
+            _DetailRow(title: 'Confidence', value: '${(result.confidence * 100).toStringAsFixed(1)}%'),
+            _DetailRow(title: 'Provider', value: result.provider.toUpperCase()),
           ],
         ),
       ),
