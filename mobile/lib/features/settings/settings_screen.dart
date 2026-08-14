@@ -53,7 +53,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                     controller: baseUrlController,
                     decoration: const InputDecoration(
                       labelText: 'Backend URL',
-                      hintText: 'http://127.0.0.1:8000',
+                      hintText: 'https://ricegpt-ai-copilot.onrender.com',
                     ),
                     onSubmitted: state.setBaseUrl,
                   ),

@@ -2,7 +2,6 @@ import 'dart:io';
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/foundation.dart';
 
 import '../config/app_config.dart';
 import '../data/disease_library.dart';
@@ -122,10 +121,13 @@ class AppState extends ChangeNotifier {
     }
     final uri = Uri.tryParse(trimmed);
     final host = uri?.host.toLowerCase() ?? '';
-    if (!kIsWeb && defaultTargetPlatform == TargetPlatform.android) {
-      if (host == 'localhost' || host == '127.0.0.1' || host == '0.0.0.0' || host == '::1' || trimmed.contains('localhost')) {
-        return 'http://10.0.2.2:8000';
-      }
+    if (host == 'localhost' ||
+        host == '127.0.0.1' ||
+        host == '0.0.0.0' ||
+        host == '::1' ||
+        trimmed.contains('localhost') ||
+        trimmed.contains('10.0.2.2')) {
+      return AppConfig.defaultBaseUrl;
     }
     return trimmed;
   }
