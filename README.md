@@ -70,6 +70,17 @@ flutter build web --release --dart-define=RICEGPT_API_BASE_URL=https://your-rend
 4. Upload the `mobile/build/web` output to Firebase Hosting or Cloudflare Pages.
 5. In your separate portfolio repo, set `links.live` to the public Flutter web URL.
 
+If you want push-based deployment to Cloudflare Pages, do not rely on the Pages Git integration to build Flutter directly. Instead, use the included GitHub Actions workflow at:
+
+- `.github/workflows/pages-deploy.yml`
+
+That workflow builds `mobile/build/web` in GitHub Actions and deploys the prebuilt assets to Cloudflare Pages. Before using it, add these GitHub repository secrets:
+
+- `CLOUDFLARE_ACCOUNT_ID`
+- `CLOUDFLARE_API_TOKEN`
+
+Also make sure the Cloudflare Pages project name in the workflow matches your actual Pages project name.
+
 If you deploy to Firebase Hosting:
 - Use the Flutter web build output as the hosting source.
 - Firebase Hosting is designed for static web assets and gives you a `web.app` / `firebaseapp.com` URL.
